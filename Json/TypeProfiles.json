@@ -1,0 +1,20 @@
+{
+  "typeProfiles": [
+    {
+      "idProfile": 1,
+      "description": "Administrador de sistema"
+    },
+    {
+      "idProfile": 2,
+      "description": "Administrador fiscal"
+    },
+    {
+      "idProfile": 3,
+      "description": "Operador CFD"
+    },
+    {
+      "idProfile": 4,
+      "description": "Operador Celula"
+    }
+  ]
+}

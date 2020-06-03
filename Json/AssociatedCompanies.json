@@ -1,0 +1,24 @@
+{
+  "associatedCompanies": [
+    {
+      "idCompany": 1,
+      "nameCompany": "COLGATE COMPANY"
+    },
+    {
+      "idCompany": 2,
+      "nameCompany": "CHEVROLET SA DE CV"
+    },
+    {
+      "idCompany": 3,
+      "nameCompany": "SANBORNS CORPORATION"
+    },
+    {
+      "idCompany": 4,
+      "nameCompany": "DELMAR CARGO SA DE CV"
+    },
+    {
+      "idCompany": 5,
+      "nameCompany": "COSTCO SHIPPING SOLUTIONS"
+    }
+  ]
+}

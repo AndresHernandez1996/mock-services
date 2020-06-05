@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "Andrés",
+      "surnamePaternal": "Hernández",
+      "surnameMaternal": "Hidalgo",
+      "username": "Andres96",
+      "idProfile": 1,
+      "profileDescription": "Descripción",
+      "idCompany": 1,
+      "nameCompany": "EMPRESA TEST",
+      "idUser": 1
+    },
+    {
+      "name": "Andrés",
+      "surnamePaternal": "Hernández",
+      "surnameMaternal": "Hidalgo",
+      "username": "Andres96",
+      "idProfile": 2,
+      "profileDescription": "Descripción",
+      "idCompany": 2,
+      "nameCompany": "EMPRESA TEST",
+      "idUser": 2
+    },
+    {
+      "name": "Andrés",
+      "surnamePaternal": "Hernández",
+      "surnameMaternal": "Hidalgo",
+      "username": "Andres96",
+      "idProfile": 3,
+      "profileDescription": "Descripción",
+      "idCompany": 3,
+      "nameCompany": "EMPRESA TEST",
+      "idUser": 3
+    },
+    {
+      "name": "Andrés",
+      "surnamePaternal": "Hernández",
+      "surnameMaternal": "Hidalgo",
+      "username": "Andres96",
+      "idProfile": 4,
+      "profileDescription": "Descripción",
+      "idCompany": 4,
+      "nameCompany": "EMPRESA TEST",
+      "idUser": 4
+    }
+  ]
+}

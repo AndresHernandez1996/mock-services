@@ -2,19 +2,19 @@
   "typeProfiles": [
     {
       "idProfile": 1,
-      "description": "Administrador de sistema"
+      "profileDescription": "Administrador de sistema"
     },
     {
       "idProfile": 2,
-      "description": "Administrador fiscal"
+      "profileDescription": "Administrador fiscal"
     },
     {
       "idProfile": 3,
-      "description": "Operador CFD"
+      "profileDescription": "Operador CFD"
     },
     {
       "idProfile": 4,
-      "description": "Operador Celula"
+      "profileDescription": "Operador Celula"
     }
   ]
 }

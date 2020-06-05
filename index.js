@@ -5,6 +5,7 @@ const cors = require('cors')
 const companies = require('./Json/Companies.json')
 const associatedCompanies = require('./Json/AssociatedCompanies.json')
 const typeProfiles = require('./Json/TypeProfiles.json')
+const users = require('./Json/GetUsers.json')
 
 const UITexts = {
   es: {
@@ -84,6 +85,11 @@ app.get('/associatedCompanies', (req, res) => {
 // Type Profiles
 app.get('/typeProfiles', (req, res) => {
   res.status(200).send(typeProfiles)
+})
+
+// Users
+app.get('/users', (req, res) => {
+  res.status(200).send(users)
 })
 
 app.get('/logout', (req, res) => {

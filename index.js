@@ -1,10 +1,11 @@
 const express = require('express')
-const axios = require('axios')
+
 const app = express()
 const cors = require('cors')
 const companies = require('./Json/Companies.json')
 const associatedCompanies = require('./Json/AssociatedCompanies.json')
 const typeProfiles = require('./Json/TypeProfiles.json')
+const userById = require('./Json/userById.json')
 
 const UITexts = {
   es: {
@@ -93,6 +94,9 @@ app.get('/logout', (req, res) => {
 
 app.get('/getText', (req, res) => {
   res.status(200).send(UITexts)
+})
+app.get('/userById', (req, res) => {
+  res.status(200).send(userById)
 })
 
 app.listen(8080, () => {

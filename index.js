@@ -9,8 +9,10 @@ const users = require('./Json/GetUsers.json')
 const userById = require('./Json/userById.json')
 const filterUsers = require('./Json/FilterUsers.json')
 const remove = require('./Json/RemoveUser.json')
-const saveUser = require('./Json/CreateUser.json')
+const createUser = require('./Json/CreateUser.json')
+const editUser = require('./Json/UpdateUser.json')
 const SAT = require('./Json/Sat.json')
+const login = require('./Json/Login.json')
 
 const UITexts = {
   es: {
@@ -66,15 +68,14 @@ app.use(
 )
 
 // login y el refresh
-app.post('/login', (req, res) => {
+app.get('/login', (req, res) => {
   res.cookie(
     'token',
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwidHlwZV9ncm91cCI6ImFkbWluIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.YcAZZ5Nq1T_38jZBQExI2TxlYp48pPM6wPt8xOR6HD0',
     { httpOnly: true, expires: expiryDate }
   )
-  res.setHeader('OK', 'OKAY VATO')
-  res.status(200)
-  res.send('Hola')
+  res.setHeader('idCompany', '123456')
+  res.status(200).send(login)
 })
 
 // Companies
@@ -110,6 +111,7 @@ app.get('/userById', (req, res) => {
 })
 app.post('/filterUsers', (req, res) => {
   res.status(200).send(filterUsers)
+  console.log('REQUEST', req)
 })
 
 app.post('/remove', (req, res) => {
@@ -117,7 +119,11 @@ app.post('/remove', (req, res) => {
 })
 
 app.post('/saveUser', (req, res) => {
-  res.status(200).send(saveUser)
+  res.status(200).send(createUser)
+})
+
+app.put('/saveUser', (req, res) => {
+  res.status(200).send(editUser)
 })
 
 /**

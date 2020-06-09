@@ -1,0 +1,20 @@
+------------HEADERS----------------
+
+>> POST /saveUser HTTP/1.1
+>> Access-Control-Allow-Origin: http://localhost:3000
+>> Access-Control-Allow-Credentials: true
+>> Host: localhost:8080
+>> Connection: keep-alive
+>> Content-Length: 179
+>> Accept: application/json, text/plain
+>> Content-Type: application/json;charset=UTF-8
+>> Origin: http://localhost:3000
+>> Sec-Fetch-Site: same-site
+>> Sec-Fetch-Mode: cors
+>> Sec-Fetch-Dest: empty
+>> Referer: http://localhost:3000/users/create
+>> Accept-Encoding: gzip, deflate, br
+>> Accept-Language: es-MX,es;q=0.9
+>> idCompany: 1234
+>> Cookie: token="1QAZ2WSX"
+

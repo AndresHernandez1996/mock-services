@@ -7,6 +7,7 @@ const associatedCompanies = require('./Json/AssociatedCompanies.json')
 const typeProfiles = require('./Json/TypeProfiles.json')
 const users = require('./Json/GetUsers.json')
 const userById = require('./Json/userById.json')
+const SAT = require('./Json/Sat.json')
 
 const UITexts = {
   es: {
@@ -103,6 +104,13 @@ app.get('/getText', (req, res) => {
 })
 app.get('/userById', (req, res) => {
   res.status(200).send(userById)
+})
+
+/**
+ * SAT
+ */
+app.get('/sat/:service', (req, res) => {
+  res.status(200).send(SAT[req.params['service']])
 })
 
 app.listen(8080, () => {

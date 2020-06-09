@@ -7,6 +7,9 @@ const associatedCompanies = require('./Json/AssociatedCompanies.json')
 const typeProfiles = require('./Json/TypeProfiles.json')
 const users = require('./Json/GetUsers.json')
 const userById = require('./Json/userById.json')
+const filterUsers = require('./Json/FilterUsers.json')
+const remove = require('./Json/RemoveUser.json')
+const saveUser = require('./Json/CreateUser.json')
 const SAT = require('./Json/Sat.json')
 
 const UITexts = {
@@ -104,6 +107,17 @@ app.get('/getText', (req, res) => {
 })
 app.get('/userById', (req, res) => {
   res.status(200).send(userById)
+})
+app.post('/filterUsers', (req, res) => {
+  res.status(200).send(filterUsers)
+})
+
+app.post('/remove', (req, res) => {
+  res.status(200).send(remove)
+})
+
+app.post('/saveUser', (req, res) => {
+  res.status(200).send(saveUser)
 })
 
 /**

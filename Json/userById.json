@@ -1,8 +1,9 @@
 {
-  "name": "name",
-  "surnameMaternal": "name",
-  "surnamePaternal": "name",
-  "username": "name",
-  "idProfile": "1",
-  "idCompany": "1"
+  "idUser": 1,
+  "name": "Andrés",
+  "surnameMaternal": "Hernández",
+  "surnamePaternal": "Hidalgo",
+  "username": "andres96",
+  "idProfile": 1,
+  "idCompany": [1, 5, 3]
 }

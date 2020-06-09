@@ -44,8 +44,5 @@
       "nameCompany": "EMPRESA TEST",
       "idUser": 4
     }
-  ],
-  "level": "success",
-  "title": "Proceso exitoso",
-  "message": "USUARIOS OBTENIDOS CORRECTAMENTE"
+  ]
 }

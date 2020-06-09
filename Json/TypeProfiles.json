@@ -16,5 +16,9 @@
       "idProfile": 4,
       "profileDescription": "Operador Celula"
     }
-  ]
+  ],
+  "title": "Información",
+  "level": "warning",
+  "message": "REVISE LA INFORMACIÓN",
+  "statusCode": 408
 }

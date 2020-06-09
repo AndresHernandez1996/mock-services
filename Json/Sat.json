@@ -1,0 +1,116 @@
+{
+  "serie": [
+    {
+      "id": 1,
+      "description": "HJ"
+    },
+    {
+      "id": 2,
+      "description": "MB"
+    },
+    {
+      "id": 3,
+      "description": "AS"
+    },
+    {
+      "id": 4,
+      "description": "PT"
+    }
+  ],
+  "paymentType": [
+    {
+      "id": "01",
+      "description": "Efectivo"
+    },
+    {
+      "id": "02",
+      "description": "Cheque nominativo"
+    },
+    {
+      "id": "03",
+      "description": "Transferencia electronica de fondos"
+    },
+    {
+      "id": "04",
+      "description": "Tarjeta de credito"
+    },
+    {
+      "id": "05",
+      "description": "Monedero electronico"
+    },
+    {
+      "id": "06",
+      "description": "Dinero electronico"
+    },
+    {
+      "id": "08",
+      "description": "Vales de despensa"
+    },
+    {
+      "id": "28",
+      "description": "Tarjeta de debito"
+    },
+    {
+      "id": "29",
+      "description": "Tarjeta de servicio"
+    },
+    {
+      "id": "99",
+      "description": "Otros"
+    }
+  ],
+  "paymentMethod": [
+    {
+      "id": 1,
+      "description": "PPD"
+    },
+    {
+      "id": 2,
+      "description": "PUE"
+    }
+  ],
+  "cfdiType": [
+    {
+      "id": 1,
+      "description": "Factura"
+    },
+    {
+      "id": 2,
+      "description": "Factura para hoteles"
+    },
+    {
+      "id": 3,
+      "description": "Recibo de honorarios"
+    }
+  ],
+  "currency": [
+    {
+      "id": 1,
+      "description": "MXP"
+    },
+    {
+      "id": 2,
+      "description": "DOLLAR"
+    }
+  ],
+  "transferTax": [
+    {
+      "id": 1,
+      "description": "ISR"
+    },
+    {
+      "id": 2,
+      "description": "ISR2"
+    }
+  ],
+  "factorType": [
+    {
+      "id": 1,
+      "description": "Tasa"
+    },
+    {
+      "id": 2,
+      "description": "Tasa2"
+    }
+  ]
+}

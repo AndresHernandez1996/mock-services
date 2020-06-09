@@ -10,6 +10,7 @@ const userById = require('./Json/userById.json')
 const filterUsers = require('./Json/FilterUsers.json')
 const remove = require('./Json/RemoveUser.json')
 const saveUser = require('./Json/CreateUser.json')
+const SAT = require('./Json/Sat.json')
 
 const UITexts = {
   es: {
@@ -117,6 +118,13 @@ app.post('/remove', (req, res) => {
 
 app.post('/saveUser', (req, res) => {
   res.status(200).send(saveUser)
+})
+
+/**
+ * SAT
+ */
+app.get('/sat/:service', (req, res) => {
+  res.status(200).send(SAT[req.params['service']])
 })
 
 app.listen(8080, () => {

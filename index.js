@@ -17,7 +17,7 @@ const editCompany = require('./Json/Companies/UpdateCompany.json')
 const removeCompany = require('./Json/Companies/RemoveCompany.json')
 const filterCompany = require('./Json/Companies/FilterCompanies.json')
 const companieById = require('./Json/Companies/CompanieById.json')
-const seriesList = require('./Json/Companies/Series.json')
+const seriesList = require('./Json/Series.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')

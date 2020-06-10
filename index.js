@@ -8,7 +8,6 @@ const typeProfiles = require('./Json/TypeProfiles.json')
 const users = require('./Json/GetUsers.json')
 const userById = require('./Json/userById.json')
 const filterUsers = require('./Json/FilterUsers.json')
-const remove = require('./Json/RemoveUser.json')
 const createUser = require('./Json/CreateUser.json')
 const editUser = require('./Json/UpdateUser.json')
 const SAT = require('./Json/Sat.json')
@@ -18,6 +17,10 @@ const editCompany = require('./Json/Companies/UpdateCompany.json')
 const removeCompany = require('./Json/Companies/RemoveCompany.json')
 const filterCompany = require('./Json/Companies/FilterCompanies.json')
 const companieById = require('./Json/Companies/CompanieById.json')
+const seriesList = require('./Json/Companies/Series.json')
+
+const remove = require('./Json/delete.json')
+const succes = require('./Json/succes.json')
 
 const UITexts = {
   es: {
@@ -138,7 +141,9 @@ app.get('/sat/:service', (req, res) => {
   res.status(200).send(SAT[req.params['service']])
 })
 
-// Companies ---------------------------------
+/**
+ * Companies
+ */
 app.post('/saveCompany', (req, res) => {
   res.status(200).send(createCompany)
 })
@@ -159,6 +164,31 @@ app.get('/companieById', (req, res) => {
   res.status(200).send(companieById)
 })
 // Companies ---------------------------------
+
+/**
+ * series
+ */
+app.get('/getSerieById/:idSerie', (req, res) => {
+  res.status(200).send(seriesList.series[1])
+})
+
+app.put('/saveSerie', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.post('/saveSerie', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.delete('/deleteSerie/:idSerie', (req, res) => {
+  res.status(200).send(remove)
+})
+
+app.get('/getAllSeries', (req, res) => {
+  res.status(200).send(seriesList)
+})
+
+// Series -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

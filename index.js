@@ -13,6 +13,11 @@ const createUser = require('./Json/CreateUser.json')
 const editUser = require('./Json/UpdateUser.json')
 const SAT = require('./Json/Sat.json')
 const login = require('./Json/Login.json')
+const createCompany = require('./Json/Companies/CreateCompany.json')
+const editCompany = require('./Json/Companies/UpdateCompany.json')
+const removeCompany = require('./Json/Companies/RemoveCompany.json')
+const filterCompany = require('./Json/Companies/FilterCompanies.json')
+const companieById = require('./Json/Companies/CompanieById.json')
 
 const UITexts = {
   es: {
@@ -93,7 +98,7 @@ app.get('/typeProfiles', (req, res) => {
   res.status(200).send(typeProfiles)
 })
 
-// Users
+// Users -------------------------------------
 app.get('/users', (req, res) => {
   res.status(200).send(users)
 })
@@ -109,9 +114,8 @@ app.get('/getText', (req, res) => {
 app.get('/userById', (req, res) => {
   res.status(200).send(userById)
 })
-app.post('/filterUsers', (req, res) => {
+app.get('/filterUsers', (req, res) => {
   res.status(200).send(filterUsers)
-  console.log('REQUEST', req)
 })
 
 app.post('/remove', (req, res) => {
@@ -125,6 +129,7 @@ app.post('/saveUser', (req, res) => {
 app.put('/saveUser', (req, res) => {
   res.status(200).send(editUser)
 })
+// Users -------------------------------------
 
 /**
  * SAT
@@ -132,6 +137,28 @@ app.put('/saveUser', (req, res) => {
 app.get('/sat/:service', (req, res) => {
   res.status(200).send(SAT[req.params['service']])
 })
+
+// Companies ---------------------------------
+app.post('/saveCompany', (req, res) => {
+  res.status(200).send(createCompany)
+})
+
+app.put('/saveCompany', (req, res) => {
+  res.status(200).send(editCompany)
+})
+
+app.get('/filterCompanies', (req, res) => {
+  res.status(200).send(filterCompany)
+})
+
+app.post('/removeCompany', (req, res) => {
+  res.status(200).send(removeCompany)
+})
+
+app.get('/companieById', (req, res) => {
+  res.status(200).send(companieById)
+})
+// Companies ---------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

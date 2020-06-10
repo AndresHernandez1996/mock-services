@@ -168,7 +168,7 @@ app.get('/companieById', (req, res) => {
 /**
  * series
  */
-app.get('/getSerieById/:idSerie', (req, res) => {
+app.get('/getSerieById', (req, res) => {
   res.status(200).send(seriesList.series[1])
 })
 
@@ -180,7 +180,7 @@ app.post('/saveSerie', (req, res) => {
   res.status(200).send(succes)
 })
 
-app.delete('/deleteSerie/:idSerie', (req, res) => {
+app.delete('/deleteSerie', (req, res) => {
   res.status(200).send(remove)
 })
 

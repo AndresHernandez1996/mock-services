@@ -10,7 +10,7 @@ const userById = require('./Json/userById.json')
 const filterUsers = require('./Json/FilterUsers.json')
 const createUser = require('./Json/CreateUser.json')
 const editUser = require('./Json/UpdateUser.json')
-const SAT = require('./Json/Sat.json')
+const onlineInvoice = require('./Json/onlineInvoice.json')
 const login = require('./Json/Login.json')
 const createCompany = require('./Json/Companies/CreateCompany.json')
 const editCompany = require('./Json/Companies/UpdateCompany.json')
@@ -135,10 +135,10 @@ app.put('/saveUser', (req, res) => {
 // Users -------------------------------------
 
 /**
- * SAT
+ * Online Invoice
  */
-app.get('/sat/:service', (req, res) => {
-  res.status(200).send(SAT[req.params['service']])
+app.get('/onlineinvoice/:service', (req, res) => {
+  res.status(200).send(onlineInvoice[req.params['service']])
 })
 
 /**

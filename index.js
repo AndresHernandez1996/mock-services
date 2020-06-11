@@ -188,6 +188,10 @@ app.get('/getAllSeries', (req, res) => {
   res.status(200).send(seriesList)
 })
 
+app.get('/getDocumentTYpe', (req, res) => {
+  res.status(200).send(seriesList)
+})
+
 // Series -------------------------------------
 
 app.listen(8080, () => {

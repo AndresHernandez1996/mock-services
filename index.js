@@ -8,19 +8,25 @@ const typeProfiles = require('./Json/TypeProfiles.json')
 const users = require('./Json/GetUsers.json')
 const userById = require('./Json/userById.json')
 const filterUsers = require('./Json/FilterUsers.json')
-const remove = require('./Json/RemoveUser.json')
 const createUser = require('./Json/CreateUser.json')
 const editUser = require('./Json/UpdateUser.json')
-const SAT = require('./Json/Sat.json')
+const onlineInvoice = require('./Json/OnlineInvoice.json')
 const login = require('./Json/Login.json')
 const createCompany = require('./Json/Companies/CreateCompany.json')
 const editCompany = require('./Json/Companies/UpdateCompany.json')
 const removeCompany = require('./Json/Companies/RemoveCompany.json')
 const filterCompany = require('./Json/Companies/FilterCompanies.json')
 const companieById = require('./Json/Companies/CompanieById.json')
+<<<<<<< HEAD
 const plans = require('./Json/Planes/GetAllPlans.json')
 const removePlan = require('./Json/Planes/RemovePlans.json')
 const filterPlans = require('./Json/Planes/FilterPlans.json')
+=======
+const seriesList = require('./Json/Series.json')
+
+const remove = require('./Json/delete.json')
+const succes = require('./Json/succes.json')
+>>>>>>> db58085a8aa29d01371d61b9e24878b2bff42b6f
 
 const UITexts = {
   es: {
@@ -135,13 +141,15 @@ app.put('/saveUser', (req, res) => {
 // Users -------------------------------------
 
 /**
- * SAT
+ * Online Invoice
  */
-app.get('/sat/:service', (req, res) => {
-  res.status(200).send(SAT[req.params['service']])
+app.get('/onlineinvoice/:service', (req, res) => {
+  res.status(200).send(onlineInvoice[req.params['service']])
 })
 
-// Companies ---------------------------------
+/**
+ * Companies
+ */
 app.post('/saveCompany', (req, res) => {
   res.status(200).send(createCompany)
 })
@@ -176,6 +184,30 @@ app.get('/filterPlans', (req, res) => {
   res.status(200).send(filterPlans)
 })
 // PLANS ---------------------------------
+/**
+ * series
+ */
+app.get('/getSerieById', (req, res) => {
+  res.status(200).send(seriesList.series[1])
+})
+
+app.put('/saveSerie', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.post('/saveSerie', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.delete('/deleteSerie', (req, res) => {
+  res.status(200).send(remove)
+})
+
+app.get('/getAllSeries', (req, res) => {
+  res.status(200).send(seriesList)
+})
+
+// Series -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

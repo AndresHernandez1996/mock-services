@@ -112,5 +112,66 @@
       "id": 2,
       "description": "Tasa2"
     }
+  ],
+  "system": [
+    {
+      "id": 1,
+      "description": "GCAYE"
+    },
+    {
+      "id": 2,
+      "description": "YAYA"
+    }
+  ],
+  "creditNote": [
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    },
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    },
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    },
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    },
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    },
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    },
+    {
+      "id": 1,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 456454,
+      "total": 5656
+    }
   ]
 }

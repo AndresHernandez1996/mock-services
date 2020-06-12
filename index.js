@@ -169,6 +169,8 @@ app.get('/getAllSeries', (req, res) => {
 // VALIDACIÓN DE CAMPOS
 app.get('/errorsDetails', (req, res) => {
   res.status(200).send(errorsDetails)
+})
+
 app.get('/getDocumentTypes', (req, res) => {
   res.status(200).send(documentTypes)
 })

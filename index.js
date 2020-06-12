@@ -17,16 +17,14 @@ const editCompany = require('./Json/Companies/UpdateCompany.json')
 const removeCompany = require('./Json/Companies/RemoveCompany.json')
 const filterCompany = require('./Json/Companies/FilterCompanies.json')
 const companieById = require('./Json/Companies/CompanieById.json')
-<<<<<<< HEAD
 const plans = require('./Json/Planes/GetAllPlans.json')
 const removePlan = require('./Json/Planes/RemovePlans.json')
 const filterPlans = require('./Json/Planes/FilterPlans.json')
-=======
 const seriesList = require('./Json/Series.json')
+const errorsDetails = require('./Json/Errors/ErrorDetails.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
->>>>>>> db58085a8aa29d01371d61b9e24878b2bff42b6f
 
 const UITexts = {
   es: {
@@ -89,7 +87,7 @@ app.get('/login', (req, res) => {
     { httpOnly: true, expires: expiryDate }
   )
   res.setHeader('idCompany', '123456')
-  res.status(200).send(login)
+  res.status(406).send(login)
 })
 
 // Companies
@@ -205,6 +203,11 @@ app.delete('/deleteSerie', (req, res) => {
 
 app.get('/getAllSeries', (req, res) => {
   res.status(200).send(seriesList)
+})
+
+// VALIDACIÓN DE CAMPOS
+app.get('/errorsDetails', (req, res) => {
+  res.status(200).send(errorsDetails)
 })
 
 // Series -------------------------------------

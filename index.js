@@ -22,49 +22,10 @@ const removePlan = require('./Json/Planes/RemovePlans.json')
 const filterPlans = require('./Json/Planes/FilterPlans.json')
 const seriesList = require('./Json/Series.json')
 const errorsDetails = require('./Json/Errors/ErrorDetails.json')
+const documentTypes = require('./Json/DocumentTypes.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
-
-const UITexts = {
-  es: {
-    'login.user': 'Usuario',
-    'login.password': 'Contraseña',
-    'login.placeholder.user': 'Escribe tu usuario',
-    'login.placeholder.password': 'Escribe tu contraseña',
-    'login.button.validate': 'Validar',
-    'login.button.sign': 'Obtener Usuario Validado',
-
-    'header.menu.main': 'Principal',
-    'header.menu.notifications': 'Notificaciones',
-    'header.menu.about': 'Acerca de',
-    'header.menu.login': 'Login',
-    'header.menu.home': 'Inicio',
-    'header.menu.forms': 'Formularios',
-    'header.avatar.title': 'Opciones',
-    'header.avatar.name': 'Andrés',
-    'header.avatar.option1': 'Cambiar Password',
-    'header.avatar.option2': 'Cerrar sesión',
-
-    'footer.content': 'Layout creado por el equipo IW',
-    'forms.user': 'Usuario',
-    'forms.email': 'Email',
-    'forms.placeholder.user': 'Escribe tu usuario',
-    'forms.placeholder.email': 'Escribe tu email',
-    'forms.button.validate': 'Validar',
-    'forms.genero': 'Genero',
-    'forms.placeholder.genero': 'Selecciona un genero',
-    'forms.colors': 'Colores',
-    'forms.placeholder.colors': 'Selecciona tus colores',
-    'forms.receiveNotifications': 'Activar Cuenta',
-    'forms.address': 'Direccion',
-    'forms.placeholder.address': 'Escribe tu direccion',
-    'login.saveSession': 'Mantener la sesion',
-
-    'sidenav.main': 'Principal',
-  },
-  messages: { required: 'campos requeridos' },
-}
 
 const expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
 
@@ -208,6 +169,8 @@ app.get('/getAllSeries', (req, res) => {
 // VALIDACIÓN DE CAMPOS
 app.get('/errorsDetails', (req, res) => {
   res.status(200).send(errorsDetails)
+app.get('/getDocumentTypes', (req, res) => {
+  res.status(200).send(documentTypes)
 })
 
 // Series -------------------------------------

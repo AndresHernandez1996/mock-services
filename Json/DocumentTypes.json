@@ -1,0 +1,12 @@
+{
+  "companies": [
+    {
+      "idType": 1,
+      "Description": "Nota de crédito"
+    },
+    {
+      "idType": 2,
+      "Description": "Factura"
+    }
+  ]
+}

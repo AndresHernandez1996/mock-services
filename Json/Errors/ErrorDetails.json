@@ -1,7 +1,6 @@
 {
-  "title": "Proceso exitoso",
-  "level": "success",
-  "message": "Logueo exitoso",
+  "data": {},
+  "statusCode": 409,
   "fields": [
     {
       "context": {
@@ -15,5 +14,11 @@
       },
       "message": "Error de password"
     }
-  ]
+  ],
+  "idCodigo": "codigo_back",
+  "messageFront": {
+    "level": "",
+    "title": "",
+    "message": ""
+  }
 }

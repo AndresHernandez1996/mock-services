@@ -1,0 +1,10 @@
+{
+  "plans": [
+    {
+      "name": "DOTA",
+      "idPlan": 1,
+      "active": true,
+      "type": "LSP"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "plans": [
+    {
+      "name": "DOTA",
+      "idPlan": 1,
+      "active": true,
+      "type": "LSP"
+    },
+    {
+      "name": "DOTA",
+      "idPlan": 2,
+      "active": true,
+      "type": "LSP"
+    },
+    {
+      "name": "DOTA",
+      "idPlan": 3,
+      "active": true,
+      "type": "LSP"
+    },
+    {
+      "name": "DOTA",
+      "idPlan": 4,
+      "active": true,
+      "type": "LSP"
+    },
+    {
+      "name": "DOTA",
+      "idPlan": 5,
+      "active": true,
+      "type": "LSP"
+    },
+    {
+      "name": "DOTA",
+      "idPlan": 6,
+      "active": true,
+      "type": "LSP"
+    }
+  ]
+}

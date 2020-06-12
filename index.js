@@ -17,11 +17,17 @@ const editCompany = require('./Json/Companies/UpdateCompany.json')
 const removeCompany = require('./Json/Companies/RemoveCompany.json')
 const filterCompany = require('./Json/Companies/FilterCompanies.json')
 const companieById = require('./Json/Companies/CompanieById.json')
+<<<<<<< HEAD
+const plans = require('./Json/Planes/GetAllPlans.json')
+const removePlan = require('./Json/Planes/RemovePlans.json')
+const filterPlans = require('./Json/Planes/FilterPlans.json')
+=======
 const seriesList = require('./Json/Series.json')
 const documentTypes = require('./Json/DocumentTypes.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
+>>>>>>> db58085a8aa29d01371d61b9e24878b2bff42b6f
 
 const expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
 
@@ -82,7 +88,7 @@ app.get('/filterUsers', (req, res) => {
   res.status(200).send(filterUsers)
 })
 
-app.post('/remove', (req, res) => {
+app.delete('/remove', (req, res) => {
   res.status(200).send(remove)
 })
 
@@ -117,7 +123,7 @@ app.get('/filterCompanies', (req, res) => {
   res.status(200).send(filterCompany)
 })
 
-app.post('/removeCompany', (req, res) => {
+app.delete('/removeCompany', (req, res) => {
   res.status(200).send(removeCompany)
 })
 
@@ -126,6 +132,19 @@ app.get('/companieById', (req, res) => {
 })
 // Companies ---------------------------------
 
+// PLANS ---------------------------------
+app.get('/getAllPlans', (req, res) => {
+  res.status(200).send(plans)
+})
+
+app.delete('/removePlan', (req, res) => {
+  res.status(200).send(removePlan)
+})
+
+app.get('/filterPlans', (req, res) => {
+  res.status(200).send(filterPlans)
+})
+// PLANS ---------------------------------
 /**
  * series
  */

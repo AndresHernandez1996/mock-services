@@ -104,8 +104,12 @@ app.put('/saveUser', (req, res) => {
 /**
  * Online Invoice
  */
-app.get('/onlineinvoice/:service', (req, res) => {
-  res.status(200).send(onlineInvoice[req.params['service']])
+app.get('/onlineinvoice', (req, res) => {
+  res.status(200).send(onlineInvoice[req.query.catalog])
+})
+
+app.post('/saveInvoice', (req, res) => {
+  res.status(200).send(succes)
 })
 
 /**

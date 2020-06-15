@@ -1,0 +1,20 @@
+1.- Descargar java versión 8
+https://www.java.com/es/download
+
+2.- Descargar SonnarScanner versión community
+https://www.sonarqube.org/downloads/
+
+3.- Ubicar el archivo de sonar previamente descargado y posicionarse en el SO que utiliza el equipo
+/Users/name/Downloads/sonarqube-"version"/bin/"SistemaOperativo"
+
+4.- Correr el servidor java (Escucha automáticamente en el 9000), escribir el siguiente comando
+./sonar.sh console
+
+5.- Ir al proyecto cfdi en el file sonar-project.js y cambiar el key "serverUrl" por la ip del equipo
+
+6.- Correr el script
+"npm run sonnar-scanner"
+
+7.- Ir a http://localhost:9000/about
+
+Congrats!

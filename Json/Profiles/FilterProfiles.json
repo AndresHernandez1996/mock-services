@@ -1,0 +1,96 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "nameProfile": "Usuario 1",
+      "associatedProfiles": [
+        {
+          "idProfile": 1,
+          "profileDescription": " Operador Celula"
+        },
+        {
+          "idProfile": 2,
+          "profileDescription": " Operador Matricula"
+        },
+        {
+          "idProfile": 3,
+          "profileDescription": " Reportes de folio"
+        },
+        {
+          "idProfile": 4,
+          "profileDescription": " Reporte de celulas"
+        }
+      ],
+      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+    },
+    {
+      "id": 2,
+      "nameProfile": "Usuario 2",
+      "associatedProfiles": [
+        {
+          "idProfile": 1,
+          "profileDescription": " Operador Celula"
+        },
+        {
+          "idProfile": 2,
+          "profileDescription": " Operador Matricula"
+        },
+        {
+          "idProfile": 3,
+          "profileDescription": " Reportes de folio"
+        },
+        {
+          "idProfile": 4,
+          "profileDescription": " Reporte de celulas"
+        }
+      ],
+      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+    },
+    {
+      "id": 3,
+      "nameProfile": "Usuario 3",
+      "associatedProfiles": [
+        {
+          "idProfile": 1,
+          "profileDescription": " Operador Celula"
+        },
+        {
+          "idProfile": 2,
+          "profileDescription": " Operador Matricula"
+        },
+        {
+          "idProfile": 3,
+          "profileDescription": " Reportes de folio"
+        },
+        {
+          "idProfile": 4,
+          "profileDescription": " Reporte de celulas"
+        }
+      ],
+      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+    },
+    {
+      "id": 4,
+      "nameProfile": "Usuario 4",
+      "associatedProfiles": [
+        {
+          "idProfile": 1,
+          "profileDescription": " Operador Celula"
+        },
+        {
+          "idProfile": 2,
+          "profileDescription": " Operador Matricula"
+        },
+        {
+          "idProfile": 3,
+          "profileDescription": " Reportes de folio"
+        },
+        {
+          "idProfile": 4,
+          "profileDescription": " Reporte de celulas"
+        }
+      ],
+      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+    }
+  ]
+}

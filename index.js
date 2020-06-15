@@ -23,6 +23,8 @@ const filterPlans = require('./Json/Planes/FilterPlans.json')
 const seriesList = require('./Json/Series.json')
 const errorsDetails = require('./Json/Errors/ErrorDetails.json')
 const documentTypes = require('./Json/DocumentTypes.json')
+const profileById = require('./Json/Profiles/ProfileById.json')
+const filterProfiles = require('./Json/Profiles/FilterProfiles.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
@@ -86,7 +88,7 @@ app.get('/filterUsers', (req, res) => {
   res.status(200).send(filterUsers)
 })
 
-app.delete('/remove', (req, res) => {
+app.delete('/removeUser', (req, res) => {
   res.status(200).send(remove)
 })
 
@@ -126,7 +128,7 @@ app.get('/filterCompanies', (req, res) => {
 })
 
 app.delete('/removeCompany', (req, res) => {
-  res.status(200).send(removeCompany)
+  res.status(200).send(remove)
 })
 
 app.get('/companieById', (req, res) => {
@@ -140,7 +142,7 @@ app.get('/getAllPlans', (req, res) => {
 })
 
 app.delete('/removePlan', (req, res) => {
-  res.status(200).send(removePlan)
+  res.status(200).send(remove)
 })
 
 app.get('/filterPlans', (req, res) => {
@@ -180,6 +182,28 @@ app.get('/getDocumentTypes', (req, res) => {
 })
 
 // Series -------------------------------------
+
+// Profiles -------------------------------------
+app.get('/getProfileById', (req, res) => {
+  res.status(200).send(profileById)
+})
+app.post('/saveProfile', (req, res) => {
+  res.status(200).send(succes)
+})
+app.put('/saveProfile', (req, res) => {
+  res.status(200).send(succes)
+})
+app.get('/filterProfiles', (req, res) => {
+  res.status(200).send(filterProfiles)
+})
+app.delete('/removeProfile', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.delete('/deleteProfile', (req, res) => {
+  res.status(200).send(remove)
+})
+// Profiles -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

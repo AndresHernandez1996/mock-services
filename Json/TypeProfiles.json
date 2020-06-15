@@ -15,6 +15,42 @@
     {
       "idProfile": 4,
       "profileDescription": "Operador Celula"
+    },
+    {
+      "idProfile": 5,
+      "profileDescription": "Administrador fiscal"
+    },
+    {
+      "idProfile": 6,
+      "profileDescription": "Operador CFD"
+    },
+    {
+      "idProfile": 7,
+      "profileDescription": "Operador Celula"
+    },
+    {
+      "idProfile": 8,
+      "profileDescription": "Administrador fiscal"
+    },
+    {
+      "idProfile": 9,
+      "profileDescription": "Operador CFD"
+    },
+    {
+      "idProfile": 10,
+      "profileDescription": "Operador Celula"
+    },
+    {
+      "idProfile": 11,
+      "profileDescription": "Administrador fiscal"
+    },
+    {
+      "idProfile": 12,
+      "profileDescription": "Operador CFD"
+    },
+    {
+      "idProfile": 13,
+      "profileDescription": "Operador Celula"
     }
   ],
   "title": "Información",

@@ -25,6 +25,8 @@ const errorsDetails = require('./Json/Errors/ErrorDetails.json')
 const documentTypes = require('./Json/DocumentTypes.json')
 const profileById = require('./Json/Profiles/ProfileById.json')
 const filterProfiles = require('./Json/Profiles/FilterProfiles.json')
+const saveInvoice = require('./Json/SaveInvoice.json')
+const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
@@ -108,9 +110,15 @@ app.get('/onlineinvoice', (req, res) => {
   res.status(200).send(onlineInvoice[req.query.catalog])
 })
 
+// 200 ok
 app.post('/saveInvoice', (req, res) => {
-  res.status(200).send(succes)
+  res.status(200).send(saveInvoice)
 })
+
+// 406 Conflict
+// app.post('/saveInvoice', (req, res) => {
+//   res.status(406).send(saveInvoiceError)
+// })
 
 /**
  * Companies

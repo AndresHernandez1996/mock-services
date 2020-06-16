@@ -125,6 +125,7 @@
   ],
   "creditNote": [
     {
+      "key": 1,
       "id": 1,
       "system": "GCTY",
       "serie": "NULO",
@@ -132,42 +133,48 @@
       "total": 5656
     },
     {
-      "id": 1,
+      "key": 2,
+      "id": 2,
       "system": "GCTY",
       "serie": "NULO",
       "folio": 456454,
       "total": 5656
     },
     {
-      "id": 1,
+      "key": 3,
+      "id": 3,
       "system": "GCTY",
       "serie": "NULO",
       "folio": 456454,
       "total": 5656
     },
     {
-      "id": 1,
+      "key": 4,
+      "id": 4,
       "system": "GCTY",
       "serie": "NULO",
       "folio": 456454,
       "total": 5656
     },
     {
-      "id": 1,
+      "key": 5,
+      "id": 5,
       "system": "GCTY",
       "serie": "NULO",
       "folio": 456454,
       "total": 5656
     },
     {
-      "id": 1,
+      "key": 6,
+      "id": 6,
       "system": "GCTY",
       "serie": "NULO",
       "folio": 456454,
       "total": 5656
     },
     {
-      "id": 1,
+      "key": 7,
+      "id": 7,
       "system": "GCTY",
       "serie": "NULO",
       "folio": 456454,

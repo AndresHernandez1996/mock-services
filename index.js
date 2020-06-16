@@ -120,6 +120,10 @@ app.post('/saveInvoice', (req, res) => {
 //   res.status(406).send(saveInvoiceError)
 // })
 
+app.post('/saveCreditNote', (req, res) => {
+  res.status(200).send(succes)
+})
+
 /**
  * Companies
  */

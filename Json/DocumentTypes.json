@@ -1,12 +1,12 @@
 {
-  "companies": [
+  "documentTypes": [
     {
-      "idType": 1,
-      "Description": "Nota de crédito"
+      "idTypeDocument": 1,
+      "description": "Nota de crédito"
     },
     {
-      "idType": 2,
-      "Description": "Factura"
+      "idTypeDocument": 2,
+      "description": "Factura"
     }
   ]
 }

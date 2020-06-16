@@ -1,0 +1,6 @@
+{
+  "idBroker": 1,
+  "nameBroker": "FEDEX",
+  "description": "Broker creado para pruebas con FRONT-END",
+  "route": "/Users/iw/METLIFE/express-mocks"
+}

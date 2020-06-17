@@ -124,10 +124,6 @@ app.post('/saveCreditNote', (req, res) => {
   res.status(200).send(succes)
 })
 
-app.post('/saveCreditNote', (req, res) => {
-  res.status(200).send(succes)
-})
-
 app.post('/savePaymentComplement', (req, res) => {
   res.status(200).send(succes)
 })

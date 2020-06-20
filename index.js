@@ -52,7 +52,7 @@ app.get('/login', (req, res) => {
     { httpOnly: true, expires: expiryDate }
   )
   res.setHeader('idCompany', '123456')
-  res.status(406).send(login)
+  res.status(200).send(login)
 })
 
 // Companies

@@ -1,19 +1,5 @@
 {
   "title": "Proceso exitoso",
   "level": "success",
-  "message": "Logueo exitoso",
-  "fields": [
-    {
-      "context": {
-        "key": "email"
-      },
-      "message": "Error de Email"
-    },
-    {
-      "context": {
-        "key": "password"
-      },
-      "message": "Error de password"
-    }
-  ]
+  "message": "Logueo exitoso"
 }

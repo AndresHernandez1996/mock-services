@@ -25,6 +25,10 @@ const errorsDetails = require('./Json/Errors/ErrorDetails.json')
 const documentTypes = require('./Json/DocumentTypes.json')
 const profileById = require('./Json/Profiles/ProfileById.json')
 const filterProfiles = require('./Json/Profiles/FilterProfiles.json')
+const brokerById = require('./Json/Brokers/GetBrokerById.json')
+const filterBrokers = require('./Json/Brokers/FilterBrokers.json')
+const errorHandler = require('./Json/Errors/Errors.json')
+const filterReports = require('./Json/Vouchers/BillingNotice/GetBillingNotice.json')
 const saveInvoice = require('./Json/SaveInvoice.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
@@ -155,7 +159,7 @@ app.delete('/removeCompany', (req, res) => {
   res.status(200).send(remove)
 })
 
-app.get('/companieById', (req, res) => {
+app.get('/companyById', (req, res) => {
   res.status(200).send(companieById)
 })
 // Companies ---------------------------------
@@ -197,8 +201,12 @@ app.get('/getAllSeries', (req, res) => {
 })
 
 // VALIDACIÓN DE CAMPOS
-app.get('/errorsDetails', (req, res) => {
+app.post('/errorsDetails', (req, res) => {
   res.status(200).send(errorsDetails)
+})
+
+app.get('/errorHandler', (req, res) => {
+  res.status(200).send(errorHandler)
 })
 
 app.get('/getDocumentTypes', (req, res) => {
@@ -206,6 +214,13 @@ app.get('/getDocumentTypes', (req, res) => {
 })
 
 // Series -------------------------------------
+
+// REPORTS -------------------------------------
+app.get('/filterReports', (req, res) => {
+  res.status(200).send(filterReports)
+})
+
+// REPORTS -------------------------------------
 
 // Profiles -------------------------------------
 app.get('/getProfileById', (req, res) => {
@@ -228,6 +243,26 @@ app.delete('/deleteProfile', (req, res) => {
   res.status(200).send(remove)
 })
 // Profiles -------------------------------------
+
+// BROKERS -------------------------------------
+app.get('/getbrokerById', (req, res) => {
+  res.status(200).send(brokerById)
+})
+app.post('/saveBroker', (req, res) => {
+  res.status(200).send(succes)
+})
+app.put('/saveBroker', (req, res) => {
+  res.status(200).send(succes)
+})
+app.get('/filterBrokers', (req, res) => {
+  console.log('REQUEST', req)
+
+  res.status(200).send(filterBrokers)
+})
+app.delete('/removeBroker', (req, res) => {
+  res.status(200).send(succes)
+})
+// BROKERS -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

@@ -1,0 +1,11 @@
+{
+  "cancelations": [
+    {
+      "id": "",
+      "invoice": "",
+      "uuid": "",
+      "dateRing": "YYYY/MM/DD-hh-mm-ss",
+      "dateCancelation": "YYYY/MM/DD-hh-mm-ss"
+    }
+  ]
+}

@@ -1,12 +1,11 @@
 {
   "data": {},
-  "statusCode": 409,
   "fields": [
     {
       "context": {
         "key": "email"
       },
-      "message": "Error de Email"
+      "message": "El email ya existe"
     },
     {
       "context": {
@@ -16,9 +15,7 @@
     }
   ],
   "idCodigo": "codigo_back",
-  "messageFront": {
-    "level": "",
-    "title": "",
-    "message": ""
-  }
+  "level": "",
+  "title": "",
+  "message": ""
 }

@@ -1,0 +1,34 @@
+{
+  "brokers": [
+    {
+      "idBroker": 1,
+      "nameBroker": "COCA COLA",
+      "description": "Broker creado para pruebas con FRONT-END",
+      "route": "/Users/iw/METLIFE/express-mocks"
+    },
+    {
+      "idBroker": 2,
+      "nameBroker": "FEDEX",
+      "description": "Broker creado para pruebas con FRONT-END",
+      "route": "/Users/iw/METLIFE/express-mocks"
+    },
+    {
+      "idBroker": 3,
+      "nameBroker": "AMAZON",
+      "description": "Broker creado para pruebas con FRONT-END",
+      "route": "/Users/iw/METLIFE/express-mocks"
+    },
+    {
+      "idBroker": 4,
+      "nameBroker": "PEPSICO",
+      "description": "Broker creado para pruebas con FRONT-END",
+      "route": "/Users/iw/METLIFE/express-mocks"
+    },
+    {
+      "idBroker": 5,
+      "nameBroker": "BARCEL",
+      "description": "Broker creado para pruebas con FRONT-END",
+      "route": "/Users/iw/METLIFE/express-mocks"
+    }
+  ]
+}

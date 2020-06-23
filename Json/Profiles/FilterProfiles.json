@@ -21,7 +21,7 @@
           "profileDescription": " Reporte de celulas"
         }
       ],
-      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+      "created": "1970-01-01 00:00:01"
     },
     {
       "id": 2,
@@ -44,7 +44,7 @@
           "profileDescription": " Reporte de celulas"
         }
       ],
-      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+      "created": "1970-01-01 00:00:01"
     },
     {
       "id": 3,
@@ -67,7 +67,7 @@
           "profileDescription": " Reporte de celulas"
         }
       ],
-      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+      "created": "1970-01-01 00:00:01"
     },
     {
       "id": 4,
@@ -90,7 +90,7 @@
           "profileDescription": " Reporte de celulas"
         }
       ],
-      "created": "1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07"
+      "created": "1970-01-01 00:00:01"
     }
   ]
 }

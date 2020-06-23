@@ -130,7 +130,7 @@
     },
     {
       "id": 2,
-      "description": "Factura 2"
+      "description": "Ingreso"
     }
   ],
   "creditNote": [
@@ -258,6 +258,28 @@
       "policy": "000458",
       "uuid": "123e4567-e89b-12d3-a456-426614174000",
       "total": "219"
+    }
+  ],
+  "annulment": [
+    {
+      "key": 1,
+      "id": 1,
+      "serie": "NULO",
+      "folio": "800362",
+      "policy": "31742",
+      "invoice": "",
+      "rfc": "AQDX55254347",
+      "total": "8.20"
+    }
+  ],
+  "preAnnulment": [
+    {
+      "serie": "NULO",
+      "folio": "800362",
+      "policy": "31742",
+      "documentType": "Complemento Pago",
+      "rfc": "AQDX55254347",
+      "total": "8.20"
     }
   ]
 }

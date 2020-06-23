@@ -123,6 +123,16 @@
       "description": "YAYA"
     }
   ],
+  "documentType": [
+    {
+      "id": 1,
+      "description": "Factura"
+    },
+    {
+      "id": 2,
+      "description": "Factura 2"
+    }
+  ],
   "creditNote": [
     {
       "key": 1,
@@ -237,6 +247,17 @@
       "serie": "NULO",
       "folio": 44774,
       "total": 577
+    }
+  ],
+  "documentSubstitution": [
+    {
+      "key": 1,
+      "id": 1,
+      "serie": "Nulo",
+      "folio": "9103535",
+      "policy": "000458",
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "total": "219"
     }
   ]
 }

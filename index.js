@@ -29,6 +29,9 @@ const brokerById = require('./Json/Brokers/GetBrokerById.json')
 const filterBrokers = require('./Json/Brokers/FilterBrokers.json')
 const errorHandler = require('./Json/Errors/Errors.json')
 const filterReports = require('./Json/Vouchers/BillingNotice/GetBillingNotice.json')
+const saveInvoice = require('./Json/SaveInvoice.json')
+const saveInvoiceError = require('./Json/SaveInvoiceError.json')
+
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
 
@@ -111,7 +114,29 @@ app.get('/onlineinvoice', (req, res) => {
   res.status(200).send(onlineInvoice[req.query.catalog])
 })
 
+// 200 ok
 app.post('/saveInvoice', (req, res) => {
+  res.status(200).send(saveInvoice)
+})
+
+// 406 Conflict
+// app.post('/saveInvoice', (req, res) => {
+//   res.status(406).send(saveInvoiceError)
+// })
+
+app.post('/saveCreditNote', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.post('/savePaymentComplement', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.post('/saveDocumentSubstitution', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.post('/saveAnnulment', (req, res) => {
   res.status(200).send(succes)
 })
 

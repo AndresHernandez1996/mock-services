@@ -1,0 +1,13 @@
+{
+  "title": "Error ",
+  "level": "error",
+  "message": "Error al gurado la factura",
+  "fields": [
+    {
+      "context": {
+        "key": "rfc"
+      },
+      "message": "Error de Email"
+    }
+  ]
+}

@@ -123,55 +123,163 @@
       "description": "YAYA"
     }
   ],
+  "documentType": [
+    {
+      "id": 1,
+      "description": "Factura"
+    },
+    {
+      "id": 2,
+      "description": "Ingreso"
+    }
+  ],
   "creditNote": [
     {
+      "key": 1,
       "id": 1,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 46454,
+      "total": 56
     },
     {
-      "id": 1,
+      "key": 2,
+      "id": 2,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 6454,
+      "total": 20
     },
     {
-      "id": 1,
+      "key": 3,
+      "id": 3,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 454,
+      "total": 100
     },
     {
-      "id": 1,
+      "key": 4,
+      "id": 4,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 1,
+      "total": 78
     },
     {
-      "id": 1,
+      "key": 5,
+      "id": 5,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 9688,
+      "total": 5
     },
     {
-      "id": 1,
+      "key": 6,
+      "id": 6,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 3442,
+      "total": 99
     },
     {
+      "key": 7,
+      "id": 7,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 44774,
+      "total": 577
+    }
+  ],
+  "paymentComplement": [
+    {
+      "key": 1,
       "id": 1,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 456454,
-      "total": 5656
+      "folio": 46454,
+      "total": 56
+    },
+    {
+      "key": 2,
+      "id": 2,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 6454,
+      "total": 20
+    },
+    {
+      "key": 3,
+      "id": 3,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 454,
+      "total": 100
+    },
+    {
+      "key": 4,
+      "id": 4,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 1,
+      "total": 78
+    },
+    {
+      "key": 5,
+      "id": 5,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 9688,
+      "total": 5
+    },
+    {
+      "key": 6,
+      "id": 6,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 3442,
+      "total": 99
+    },
+    {
+      "key": 7,
+      "id": 7,
+      "system": "GCTY",
+      "serie": "NULO",
+      "folio": 44774,
+      "total": 577
+    }
+  ],
+  "documentSubstitution": [
+    {
+      "key": 1,
+      "id": 1,
+      "serie": "Nulo",
+      "folio": "9103535",
+      "policy": "000458",
+      "uuid": "123e4567-e89b-12d3-a456-426614174000",
+      "total": "219"
+    }
+  ],
+  "annulment": [
+    {
+      "key": 1,
+      "id": 1,
+      "serie": "NULO",
+      "folio": "800362",
+      "policy": "31742",
+      "invoice": "",
+      "rfc": "AQDX55254347",
+      "total": "8.20"
+    }
+  ],
+  "preAnnulment": [
+    {
+      "serie": "NULO",
+      "folio": "800362",
+      "policy": "31742",
+      "documentType": "Complemento Pago",
+      "rfc": "AQDX55254347",
+      "total": "8.20"
     }
   ]
 }

@@ -1,0 +1,74 @@
+// GET
+
+{
+  "system": "",
+  "taxRegimeReceptor": "",
+  "bussinessName": "",
+  "documentType": "",
+  "ducumentStatus": "",
+  "uuidRing": "",
+  "invoiceFrom": "",
+  "invoiceTo": "",
+  "amountFrom": "",
+  "amountTo": "",
+  "dateFrom": "YYYY/MM/DD-hh-mm-ss",
+  "dateTo": "YYYY/MM/DD-hh-mm-ss",
+  "policyNumber": "",
+  "agentNumber": "",
+  "validityFrom": "",
+  "validityTo": "",
+  "plan": "",
+  "idJob": ""
+}
+
+// RESPONSE
+
+{
+  "documents": [
+    {
+      "id": "",
+      "serie": "",
+      "invoice": "",
+      "date": "YYYY/MM/DD-hh-mm-ss",
+      "system": "",
+      "taxRegime": "",
+      "agentNumber": "",
+      "policyNumber": "",
+      "agent": "",
+      "plan": "",
+      "dateCancelation": "",
+      "uuidRing": "",
+      "relatedDocument": ""
+    },
+    {
+      "id": "",
+      "serie": "",
+      "invoice": "",
+      "date": "YYYY/MM/DD-hh-mm-ss",
+      "system": "",
+      "taxRegime": "",
+      "agentNumber": "",
+      "policyNumber": "",
+      "agent": "",
+      "plan": "",
+      "dateCancelation": "",
+      "uuidRing": "",
+      "relatedDocument": ""
+    },
+    {
+      "id": "",
+      "serie": "",
+      "invoice": "",
+      "date": "YYYY/MM/DD-hh-mm-ss",
+      "system": "",
+      "taxRegime": "",
+      "agentNumber": "",
+      "policyNumber": "",
+      "agent": "",
+      "plan": "",
+      "dateCancelation": "",
+      "uuidRing": "",
+      "relatedDocument": ""
+    },
+  ]
+}

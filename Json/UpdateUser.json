@@ -1,5 +1,5 @@
 {
-  "level": "info",
+  "level": "success",
   "title": "Proceso exitoso",
   "message": "Usuario modificado correctamente"
 }

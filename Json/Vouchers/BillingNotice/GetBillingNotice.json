@@ -1,0 +1,113 @@
+{
+  "listResponse": [
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 6687621.0,
+      "policy": "M0008163344",
+      "serie": "H",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 3065333.0,
+      "policy": "M0008163344",
+      "serie": "NULO",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 306454341.0,
+      "policy": "I000746715",
+      "serie": "NULO",
+      "system": "GCAYE",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 3065333.0,
+      "policy": "M0008163344",
+      "serie": "NULO",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 306454341.0,
+      "policy": "I000746715",
+      "serie": "NULO",
+      "system": "GCAYE",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 3065333.0,
+      "policy": "M0008163344",
+      "serie": "NULO",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 306454341.0,
+      "policy": "I000746715",
+      "serie": "NULO",
+      "system": "GCAYE",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 3065333.0,
+      "policy": "M0008163344",
+      "serie": "NULO",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 306454341.0,
+      "policy": "I000746715",
+      "serie": "NULO",
+      "system": "GCAYE",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 3065333.0,
+      "policy": "M0008163344",
+      "serie": "NULO",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 306454341.0,
+      "policy": "I000746715",
+      "serie": "NULO",
+      "system": "GCAYE",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 3065333.0,
+      "policy": "M0008163344",
+      "serie": "NULO",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9"
+    },
+    {
+      "date": "2020-05-21 16:59:07",
+      "folio": 306454341.0,
+      "policy": "I000746715",
+      "serie": "NULO",
+      "system": "GCAYE",
+      "rfcReceiver": "BAT050829CF9"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "pageSize": 10,
+    "total": 3
+  }
+}

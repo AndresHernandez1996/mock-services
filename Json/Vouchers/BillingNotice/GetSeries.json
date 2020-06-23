@@ -1,0 +1,8 @@
+{
+  "series": [
+    { "idSerie": 1, "nameSerie": "H" },
+    { "idSerie": 2, "nameSerie": "I" },
+    { "idSerie": 3, "nameSerie": "J" },
+    { "idSerie": 4, "nameSerie": "K" }
+  ]
+}

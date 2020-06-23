@@ -1,0 +1,40 @@
+{
+  "errors": [
+    {
+      "id": "",
+      "serie": "",
+      "invoice": "",
+      "date": "YYYY/MM/DD-hh-mm-ss",
+      "error": "",
+      "system": "",
+      "plan": "",
+      "policyNumber": "",
+      "taxRegimeReceptor": "",
+      "errorType": ""
+    },
+    {
+      "id": "",
+      "serie": "",
+      "invoice": "",
+      "date": "YYYY/MM/DD-hh-mm-ss",
+      "error": "",
+      "system": "",
+      "plan": "",
+      "policyNumber": "",
+      "taxRegimeReceptor": "",
+      "errorType": ""
+    },
+    {
+      "id": "",
+      "serie": "",
+      "invoice": "",
+      "date": "YYYY/MM/DD-hh-mm-ss",
+      "error": "",
+      "system": "",
+      "plan": "",
+      "policyNumber": "",
+      "taxRegimeReceptor": "",
+      "errorType": ""
+    }
+  ]
+}

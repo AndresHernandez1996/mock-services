@@ -30,6 +30,8 @@ const filterBrokers = require('./Json/Brokers/FilterBrokers.json')
 const errorHandler = require('./Json/Errors/Errors.json')
 const filterReports = require('./Json/Vouchers/BillingNotice/GetBillingNotice.json')
 const saveInvoice = require('./Json/SaveInvoice.json')
+const getAllSystem = require('./Json/Vouchers/Cancelations/GetSystem.json')
+const filterCancelations = require('./Json/Vouchers/Cancelations/GetCancelations.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
 const remove = require('./Json/delete.json')
@@ -263,6 +265,18 @@ app.delete('/removeBroker', (req, res) => {
   res.status(200).send(succes)
 })
 // BROKERS -------------------------------------
+
+// CANCELATIONS -------------------------------------
+app.get('/filterCancelations', (req, res) => {
+  res.status(200).send(filterCancelations)
+})
+// CANCELATIONS -------------------------------------
+
+// CANCELATIONS -------------------------------------
+app.get('/getAllSystem', (req, res) => {
+  res.status(200).send(getAllSystem)
+})
+// CANCELATIONS -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

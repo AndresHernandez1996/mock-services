@@ -1,11 +1,15 @@
-{
-  "cancelations": [
-    {
-      "id": "",
-      "invoice": "",
-      "uuid": "",
-      "dateRing": "YYYY/MM/DD-hh-mm-ss",
-      "dateCancelation": "YYYY/MM/DD-hh-mm-ss"
-    }
-  ]
+{"listResponse": [
+  {
+      "stampDate": "2020-05-21T16:59:07",
+      "folio": "6687621.00",
+      "serie": "H",
+      "uuid":"41245f4df4d5-75757rere-reoper45",
+      "cancelDate":"2020-05-21T16:59:07"
+  }
+],
+"pagination": {
+  "current": 1,
+  "pageSize": 10,
+  "total": 3
+}
 }

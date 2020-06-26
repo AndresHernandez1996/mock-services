@@ -32,6 +32,7 @@ const filterReports = require('./Json/Vouchers/BillingNotice/GetBillingNotice.js
 const saveInvoice = require('./Json/SaveInvoice.json')
 const getAllSystem = require('./Json/Vouchers/Cancelations/GetSystem.json')
 const filterCancelations = require('./Json/Vouchers/Cancelations/GetCancelations.json')
+const Exports = require('./Json/Vouchers/Cancelations/GetExport.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
 const remove = require('./Json/delete.json')
@@ -270,13 +271,17 @@ app.delete('/removeBroker', (req, res) => {
 app.get('/filterCancelations', (req, res) => {
   res.status(200).send(filterCancelations)
 })
+
+app.post('/exports', (req, res) => {
+  res.status(200).send(Exports)
+})
 // CANCELATIONS -------------------------------------
 
-// CANCELATIONS -------------------------------------
+// System -------------------------------------
 app.get('/getAllSystem', (req, res) => {
   res.status(200).send(getAllSystem)
 })
-// CANCELATIONS -------------------------------------
+// System -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

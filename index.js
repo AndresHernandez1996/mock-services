@@ -30,6 +30,9 @@ const filterBrokers = require('./Json/Brokers/FilterBrokers.json')
 const errorHandler = require('./Json/Errors/Errors.json')
 const filterReports = require('./Json/Vouchers/BillingNotice/GetBillingNotice.json')
 const saveInvoice = require('./Json/SaveInvoice.json')
+const getAllSystem = require('./Json/Vouchers/Cancelations/GetSystem.json')
+const filterCancelations = require('./Json/Vouchers/Cancelations/GetCancelations.json')
+const Exports = require('./Json/Vouchers/Cancelations/GetExport.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
 const filterDocuments = require('./Json/Vouchers/Documents/getDocumentsData.json')
@@ -290,6 +293,22 @@ app.get('/getSystems', (req, res) => {
   res.status(200).send(getSystems)
 })
 // DOCUMENTS -------------------------------------
+
+// CANCELATIONS -------------------------------------
+app.get('/filterCancelations', (req, res) => {
+  res.status(200).send(filterCancelations)
+})
+
+app.post('/exports', (req, res) => {
+  res.status(200).send(Exports)
+})
+// CANCELATIONS -------------------------------------
+
+// System -------------------------------------
+app.get('/getAllSystem', (req, res) => {
+  res.status(200).send(getAllSystem)
+})
+// System -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

@@ -1,0 +1,65 @@
+{
+  "listResponse": [
+    {
+      "serie": "H",
+      "folio": 6687621.0,
+      "date": "2020-05-21 16:59:07",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "policy": "M0008163344",
+      "NoAgent": "123456",
+      "agent": "Agent 1",
+      "plan": "P",
+      "cancelationDate": "2020-05-21 16:59:07",
+      "uuid": "1qaz2wsx3edc",
+      "relationedDocument": "55434554"
+    },
+    {
+      "serie": "H",
+      "folio": 6687621.0,
+      "date": "2020-05-21 16:59:07",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "policy": "M0008163344",
+      "NoAgent": "123456",
+      "agent": "Agent 1",
+      "plan": "P",
+      "cancelationDate": "2020-05-21 16:59:07",
+      "uuid": "1qaz2wsx3edc",
+      "relationedDocument": "55434554"
+    },
+    {
+      "serie": "H",
+      "folio": 6687621.0,
+      "date": "2020-05-21 16:59:07",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "policy": "M0008163344",
+      "NoAgent": "123456",
+      "agent": "Agent 1",
+      "plan": "P",
+      "cancelationDate": "2020-05-21 16:59:07",
+      "uuid": "1qaz2wsx3edc",
+      "relationedDocument": "55434554"
+    },
+    {
+      "serie": "H",
+      "folio": 6687621.0,
+      "date": "2020-05-21 16:59:07",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "policy": "M0008163344",
+      "NoAgent": "123456",
+      "agent": "Agent 1",
+      "plan": "P",
+      "cancelationDate": "2020-05-21 16:59:07",
+      "uuid": "1qaz2wsx3edc",
+      "relationedDocument": "55434554"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "pageSize": 10,
+    "total": 3
+  }
+}

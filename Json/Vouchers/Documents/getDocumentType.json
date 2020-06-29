@@ -1,0 +1,18 @@
+[
+  {
+    "idDocumentType": 1,
+    "nameDocument": "Document 1"
+  },
+  {
+    "idDocumentType": 2,
+    "nameDocument": "Document 2"
+  },
+  {
+    "idDocumentType": 3,
+    "nameDocument": "Document 3"
+  },
+  {
+    "idDocumentType": 4,
+    "nameDocument": "Document 4"
+  }
+]

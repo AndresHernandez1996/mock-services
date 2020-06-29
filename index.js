@@ -31,6 +31,11 @@ const errorHandler = require('./Json/Errors/Errors.json')
 const filterReports = require('./Json/Vouchers/BillingNotice/GetBillingNotice.json')
 const saveInvoice = require('./Json/SaveInvoice.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
+const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
+const filterDocuments = require('./Json/Vouchers/Documents/getDocumentsData.json')
+const getDocumentType = require('./Json/Vouchers/Documents/getDocumentType.json')
+const getStatusDocument = require('./Json/Vouchers/Documents/getStatusDocument.json')
+const getSystems = require('./Json/Vouchers/Documents/getsystems.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
@@ -263,6 +268,28 @@ app.delete('/removeBroker', (req, res) => {
   res.status(200).send(succes)
 })
 // BROKERS -------------------------------------
+app.post('/getPdf', (req, res) => {
+  res.status(200).send(getPdf)
+})
+// BROKERS -------------------------------------
+
+// DOCUMENTS -------------------------------------
+app.get('/filterDocuments', (req, res) => {
+  res.status(200).send(filterDocuments)
+})
+
+app.get('/getDocumentType', (req, res) => {
+  res.status(200).send(getDocumentType)
+})
+
+app.get('/getStatusDocument', (req, res) => {
+  res.status(200).send(getStatusDocument)
+})
+
+app.get('/getSystems', (req, res) => {
+  res.status(200).send(getSystems)
+})
+// DOCUMENTS -------------------------------------
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

@@ -33,6 +33,9 @@ const saveInvoice = require('./Json/SaveInvoice.json')
 const getAllSystem = require('./Json/Vouchers/Cancelations/GetSystem.json')
 const filterCancelations = require('./Json/Vouchers/Cancelations/GetCancelations.json')
 const Exports = require('./Json/Vouchers/Cancelations/GetExport.json')
+const resumenGCAYE = require('./Json/Monitor/GCAYE/GetGCAYE')
+const detailGcaye = require('./Json/Monitor/GCAYE/DetailGcaye')
+const getStatus = require('./Json/Status')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
 const remove = require('./Json/delete.json')
@@ -283,6 +286,21 @@ app.get('/getAllSystem', (req, res) => {
 })
 // System -------------------------------------
 
+// RESUMEN GCAYE -------------------------------------
+app.get('/resumenGCAYE', (req, res) => {
+  res.status(200).send(resumenGCAYE)
+})
+// RESUMEN GCAYE -------------------------------------
+
+// DETAIL GCAYE ---------------------------------------
+app.get('/detailGcaye', (req, res) => {
+  res.status(200).send(detailGcaye)
+})
+// DETAIL GCAYE ---------------------------------------
+// REPORTS -------------------------------------
+app.get('/getStatus', (req, res) => {
+  res.status(200).send(getStatus)
+})
 app.listen(8080, () => {
   // eslint-disable-next-line no-console
   console.log('Example app listening on port https://localhost:8080')

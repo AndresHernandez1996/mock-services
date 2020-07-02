@@ -36,6 +36,7 @@ const Exports = require('./Json/Vouchers/Cancelations/GetExport.json')
 const resumenGCAYE = require('./Json/Monitor/GCAYE/GetGCAYE')
 const detailGcaye = require('./Json/Monitor/GCAYE/DetailGcaye')
 const getStatus = require('./Json/Status')
+const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
 const remove = require('./Json/delete.json')
@@ -301,6 +302,12 @@ app.get('/detailGcaye', (req, res) => {
 app.get('/getStatus', (req, res) => {
   res.status(200).send(getStatus)
 })
+// MONITOR EXCEPTION
+app.get('/getExceptions', (req, res) => {
+  res.status(200).send(getExceptions)
+})
+// MONITOR EXCEPTION
+
 app.listen(8080, () => {
   // eslint-disable-next-line no-console
   console.log('Example app listening on port https://localhost:8080')

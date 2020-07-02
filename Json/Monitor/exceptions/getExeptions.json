@@ -1,0 +1,68 @@
+{ "exceptions":{
+    "listExceptions" : [{
+        "idException" : 1,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "retries": 7,
+        "ramo": "A",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idException" : 2,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "retries": 7,
+        "ramo": "D",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idException" : 3,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "retries": 7,
+        "ramo": "D",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idException" : 4,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "retries": 7,
+        "ramo": "D",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idException" : 5,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "retries": 7,
+        "ramo": "D",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    }]
+    ,
+    "pagination": {
+      "current": 1,
+      "pageSize": 10,
+      "total": 3
+    }}
+}

@@ -1,0 +1,41 @@
+{
+  "ecosyspac": {
+    "system": "GCAYE",
+    "initDate": "02-noviembre-2019",
+    "finDate": "16-junio-2020",
+    "summary": [
+      {
+        "idSummary": 1,
+        "documentType": " ingreso",
+        "received": 160,
+        "forward": 30,
+        "bugIdentified": 10,
+        "total": 20
+      },
+      {
+        "idSummary": 2,
+        "documentType": " Egreso",
+        "received": 250,
+        "forward": 70,
+        "bugIdentified": 1,
+        "total": 200
+      },
+      {
+        "idSummary": 3,
+        "documentType": " Complemento de pago ",
+        "received": 340,
+        "forward": 2,
+        "bugIdentified": 10,
+        "total": 110
+      },
+      {
+        "idSummary": 1,
+        "documentType": " solicitud de cancelacion",
+        "received": 160,
+        "forward": 30,
+        "bugIdentified": 10,
+        "total": 20
+      }
+    ]
+  }
+}

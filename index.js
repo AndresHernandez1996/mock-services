@@ -43,6 +43,9 @@ const succes = require('./Json/succes.json')
 
 const expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
 
+const getEcosysPac = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPac.json')
+const getEcosysPacDetail = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPacDetail.json')
+
 app.use(
   cors({
     origin: [
@@ -304,4 +307,12 @@ app.get('/getStatus', (req, res) => {
 app.listen(8080, () => {
   // eslint-disable-next-line no-console
   console.log('Example app listening on port https://localhost:8080')
+})
+
+// Monitor ECOSYS-PAC
+app.get('/getEcosysPac', (req, res) => {
+  res.status(200).send(getEcosysPac)
+})
+app.get('/getEcosysPacDetail', (req, res) => {
+  res.status(200).send(getEcosysPacDetail)
 })

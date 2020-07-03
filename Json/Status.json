@@ -1,0 +1,20 @@
+{
+  "status": [
+    {
+      "idStatus": 1,
+      "nameStatus": "Cancelado"
+    },
+    {
+      "idStatus": 2,
+      "nameStatus": "Pendiente"
+    },
+    {
+      "idStatus": 3,
+      "nameStatus": "Revisado"
+    },
+    {
+      "idStatus": 4,
+      "nameStatus": "Aprobado"
+    }
+  ]
+}

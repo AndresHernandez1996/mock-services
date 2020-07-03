@@ -1,0 +1,51 @@
+{
+    "detail": [{
+        "idDetail" : 1,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "rambo": "B",
+        "status": "Cabcelado",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idDetail" : 2,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "rambo": "B",
+        "status": "Cabcelado",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idDetail" : 3,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "rambo": "B",
+        "status": "Cabcelado",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    },
+    {
+        "idDetail" : 4,
+        "legacy": "GCAYE",
+        "serie": "serie",
+        "invoice": 2243,
+        "bill": 1234,
+        "policy": 23445,
+        "rambo": "B",
+        "status": "Cabcelado",
+        "date" : "29 febreo 2020",
+        "noAgent" : "00B"
+    }
+    ]
+}

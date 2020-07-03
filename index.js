@@ -33,6 +33,10 @@ const saveInvoice = require('./Json/SaveInvoice.json')
 const getAllSystem = require('./Json/Vouchers/Cancelations/GetSystem.json')
 const filterCancelations = require('./Json/Vouchers/Cancelations/GetCancelations.json')
 const Exports = require('./Json/Vouchers/Cancelations/GetExport.json')
+const resumenGCAYE = require('./Json/Monitor/GCAYE/GetGCAYE')
+const detailGcaye = require('./Json/Monitor/GCAYE/DetailGcaye')
+const getStatus = require('./Json/Status')
+const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
 const filterDocuments = require('./Json/Vouchers/Documents/getDocumentsData.json')
@@ -41,11 +45,15 @@ const getStatusDocument = require('./Json/Vouchers/Documents/getStatusDocument.j
 const getSystems = require('./Json/Vouchers/Documents/getsystems.json')
 const getZip = require('./Json/Vouchers/BillingNotice/GetZip.json')
 const getErrorsCfdi = require('./Json/Vouchers/ErrorsCfdi/GetErrorsCfdi.json')
+const multipack = require('./Json/multipack.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
 
 const expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
+
+const getEcosysPac = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPac.json')
+const getEcosysPacDetail = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPacDetail.json')
 
 app.use(
   cors({
@@ -323,7 +331,48 @@ app.get('/getErrorsCfdi', (req, res) => {
 })
 // System -------------------------------------
 
+// RESUMEN GCAYE -------------------------------------
+app.get('/resumenGCAYE', (req, res) => {
+  res.status(200).send(resumenGCAYE)
+})
+// RESUMEN GCAYE -------------------------------------
+
+// DETAIL GCAYE ---------------------------------------
+app.get('/detailGcaye', (req, res) => {
+  res.status(200).send(detailGcaye)
+})
+// DETAIL GCAYE ---------------------------------------
+// REPORTS -------------------------------------
+app.get('/getStatus', (req, res) => {
+  res.status(200).send(getStatus)
+})
+// MONITOR EXCEPTION
+app.get('/getExceptions', (req, res) => {
+  res.status(200).send(getExceptions)
+})
+// MONITOR EXCEPTION
+
 app.listen(8080, () => {
   // eslint-disable-next-line no-console
   console.log('Example app listening on port https://localhost:8080')
+})
+
+// Monitor ECOSYS-PAC
+app.get('/getEcosysPac', (req, res) => {
+  res.status(200).send(getEcosysPac)
+})
+app.get('/getEcosysPacDetail', (req, res) => {
+  res.status(200).send(getEcosysPacDetail)
+})
+
+/**
+ * Multipack
+ */
+app.get('/multipack', (req, res) => {
+  res.status(200).send(multipack[req.query.catalog])
+})
+
+// 200 ok
+app.post('/saveMultipack', (req, res) => {
+  res.status(200).send(saveInvoice)
 })

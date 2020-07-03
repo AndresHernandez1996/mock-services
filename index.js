@@ -37,6 +37,8 @@ const resumenGCAYE = require('./Json/Monitor/GCAYE/GetGCAYE')
 const detailGcaye = require('./Json/Monitor/GCAYE/DetailGcaye')
 const getStatus = require('./Json/Status')
 const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
+const getPeriod = require('./Json/Period.json')
+
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 
 const remove = require('./Json/delete.json')
@@ -310,6 +312,12 @@ app.get('/getExceptions', (req, res) => {
   res.status(200).send(getExceptions)
 })
 // MONITOR EXCEPTION
+
+// Period
+app.get('/getPeriod', (req, res) => {
+  res.status(200).send(getPeriod)
+})
+// Period
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

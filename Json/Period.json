@@ -1,0 +1,20 @@
+{
+  "period": [
+    {
+      "idPeriod": 1,
+      "namePeriod": "Enero 2020"
+    },
+    {
+      "idPeriod": 2,
+      "namePeriod": "Febrero 2020"
+    },
+    {
+      "idPeriod": 3,
+      "namePeriod": "Marzo 2020"
+    },
+    {
+      "idPeriod": 4,
+      "namePeriod": "Abril 2020"
+    }
+  ]
+}

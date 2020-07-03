@@ -1,4 +1,4 @@
-{
+{ "detail":{
     "detail": [{
         "idDetail" : 1,
         "legacy": "GCAYE",
@@ -7,7 +7,7 @@
         "bill": 1234,
         "policy": 23445,
         "rambo": "B",
-        "status": "Cabcelado",
+        "status": "Pendiente",
         "date" : "29 febreo 2020",
         "noAgent" : "00B"
     },
@@ -19,7 +19,7 @@
         "bill": 1234,
         "policy": 23445,
         "rambo": "B",
-        "status": "Cabcelado",
+        "status": "Pendiente",
         "date" : "29 febreo 2020",
         "noAgent" : "00B"
     },
@@ -31,7 +31,7 @@
         "bill": 1234,
         "policy": 23445,
         "rambo": "B",
-        "status": "Cabcelado",
+        "status": "Pendiente",
         "date" : "29 febreo 2020",
         "noAgent" : "00B"
     },
@@ -43,9 +43,15 @@
         "bill": 1234,
         "policy": 23445,
         "rambo": "B",
-        "status": "Cabcelado",
+        "status": "Pendiente",
         "date" : "29 febreo 2020",
         "noAgent" : "00B"
     }
-    ]
+    ],
+    "pagination": {
+      "current": 1,
+      "pageSize": 10,
+      "total": 3
+    }
+  }
 }

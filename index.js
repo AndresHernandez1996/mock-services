@@ -39,6 +39,8 @@ const filterDocuments = require('./Json/Vouchers/Documents/getDocumentsData.json
 const getDocumentType = require('./Json/Vouchers/Documents/getDocumentType.json')
 const getStatusDocument = require('./Json/Vouchers/Documents/getStatusDocument.json')
 const getSystems = require('./Json/Vouchers/Documents/getsystems.json')
+const getZip = require('./Json/Vouchers/BillingNotice/GetZip.json')
+const getErrorsCfdi = require('./Json/Vouchers/ErrorsCfdi/GetErrorsCfdi.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
@@ -270,11 +272,16 @@ app.get('/filterBrokers', (req, res) => {
 app.delete('/removeBroker', (req, res) => {
   res.status(200).send(succes)
 })
-// BROKERS -------------------------------------
+
+// DOCUMENTS -------------------------------------
 app.post('/getPdf', (req, res) => {
   res.status(200).send(getPdf)
 })
-// BROKERS -------------------------------------
+
+app.get('/getZip', (req, res) => {
+  res.status(200).send(getZip)
+})
+// DOCUMENTS -------------------------------------
 
 // DOCUMENTS -------------------------------------
 app.get('/filterDocuments', (req, res) => {
@@ -307,6 +314,12 @@ app.post('/exports', (req, res) => {
 // System -------------------------------------
 app.get('/getAllSystem', (req, res) => {
   res.status(200).send(getAllSystem)
+})
+// System -------------------------------------
+
+// System -------------------------------------
+app.get('/getErrorsCfdi', (req, res) => {
+  res.status(200).send(getErrorsCfdi)
 })
 // System -------------------------------------
 

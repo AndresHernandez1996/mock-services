@@ -38,6 +38,7 @@ const detailGcaye = require('./Json/Monitor/GCAYE/DetailGcaye')
 const getStatus = require('./Json/Status')
 const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
+const multipack = require('./Json/multipack.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
@@ -322,4 +323,16 @@ app.get('/getEcosysPac', (req, res) => {
 })
 app.get('/getEcosysPacDetail', (req, res) => {
   res.status(200).send(getEcosysPacDetail)
+})
+
+/**
+ * Multipack
+ */
+app.get('/multipack', (req, res) => {
+  res.status(200).send(multipack[req.query.catalog])
+})
+
+// 200 ok
+app.post('/saveMultipack', (req, res) => {
+  res.status(200).send(saveInvoice)
 })

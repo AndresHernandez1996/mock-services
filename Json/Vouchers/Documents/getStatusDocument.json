@@ -1,0 +1,18 @@
+[
+  {
+    "idStatusDocument": 1,
+    "nameStatusDocument": "Activo"
+  },
+  {
+    "idStatusDocument": 2,
+    "nameStatusDocument": "Inactivo"
+  },
+  {
+    "idStatusDocument": 3,
+    "nameStatusDocument": "Suspendido"
+  },
+  {
+    "idStatusDocument": 4,
+    "nameStatusDocument": "En curso"
+  }
+]

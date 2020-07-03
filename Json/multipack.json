@@ -1,0 +1,70 @@
+{
+  "legacy": [
+    {
+      "id": 1,
+      "description": "LSP"
+    },
+    {
+      "id": 2,
+      "description": "GCAYE"
+    },
+    {
+      "id": 3,
+      "description": "EP"
+    }
+  ],
+  "pac": [
+    {
+      "id": 1,
+      "description": "PAC1"
+    },
+    {
+      "id": 2,
+      "description": "PAC2"
+    },
+    {
+      "id": 3,
+      "description": "PAC3"
+    }
+  ],
+  "stamp": [
+    {
+      "key": 1,
+      "id": 1,
+      "legacy": "GCAYE",
+      "pac": "PAC Interfactura"
+    },
+    {
+      "key": 2,
+      "id": 2,
+      "legacy": "LSP",
+      "pac": "PAC 2"
+    },
+    {
+      "key": 3,
+      "id": 3,
+      "legacy": "Capacion de Recursos",
+      "pac": "PAC 3"
+    }
+  ],
+  "cancellation": [
+    {
+      "key": 1,
+      "id": 1,
+      "legacy": "GCAYE",
+      "pac": "PAC Interfactura"
+    },
+    {
+      "key": 2,
+      "id": 2,
+      "legacy": "LSP",
+      "pac": "PAC 2"
+    },
+    {
+      "key": 3,
+      "id": 3,
+      "legacy": "Capacion de Recursos",
+      "pac": "PAC 3"
+    }
+  ]
+}

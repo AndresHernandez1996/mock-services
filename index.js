@@ -40,6 +40,14 @@ const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const getPeriod = require('./Json/Period.json')
 
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
+const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
+const filterDocuments = require('./Json/Vouchers/Documents/getDocumentsData.json')
+const getDocumentType = require('./Json/Vouchers/Documents/getDocumentType.json')
+const getStatusDocument = require('./Json/Vouchers/Documents/getStatusDocument.json')
+const getSystems = require('./Json/Vouchers/Documents/getsystems.json')
+const getZip = require('./Json/Vouchers/BillingNotice/GetZip.json')
+const getErrorsCfdi = require('./Json/Vouchers/ErrorsCfdi/GetErrorsCfdi.json')
+const multipack = require('./Json/multipack.json')
 
 const remove = require('./Json/delete.json')
 const succes = require('./Json/succes.json')
@@ -274,7 +282,34 @@ app.get('/filterBrokers', (req, res) => {
 app.delete('/removeBroker', (req, res) => {
   res.status(200).send(succes)
 })
-// BROKERS -------------------------------------
+
+// DOCUMENTS -------------------------------------
+app.post('/getPdf', (req, res) => {
+  res.status(200).send(getPdf)
+})
+
+app.get('/getZip', (req, res) => {
+  res.status(200).send(getZip)
+})
+// DOCUMENTS -------------------------------------
+
+// DOCUMENTS -------------------------------------
+app.get('/filterDocuments', (req, res) => {
+  res.status(200).send(filterDocuments)
+})
+
+app.get('/getDocumentType', (req, res) => {
+  res.status(200).send(getDocumentType)
+})
+
+app.get('/getStatusDocument', (req, res) => {
+  res.status(200).send(getStatusDocument)
+})
+
+app.get('/getSystems', (req, res) => {
+  res.status(200).send(getSystems)
+})
+// DOCUMENTS -------------------------------------
 
 // CANCELATIONS -------------------------------------
 app.get('/filterCancelations', (req, res) => {
@@ -289,6 +324,12 @@ app.post('/exports', (req, res) => {
 // System -------------------------------------
 app.get('/getAllSystem', (req, res) => {
   res.status(200).send(getAllSystem)
+})
+// System -------------------------------------
+
+// System -------------------------------------
+app.get('/getErrorsCfdi', (req, res) => {
+  res.status(200).send(getErrorsCfdi)
 })
 // System -------------------------------------
 
@@ -330,4 +371,16 @@ app.get('/getEcosysPac', (req, res) => {
 })
 app.get('/getEcosysPacDetail', (req, res) => {
   res.status(200).send(getEcosysPacDetail)
+})
+
+/**
+ * Multipack
+ */
+app.get('/multipack', (req, res) => {
+  res.status(200).send(multipack[req.query.catalog])
+})
+
+// 200 ok
+app.post('/saveMultipack', (req, res) => {
+  res.status(200).send(saveInvoice)
 })

@@ -1,0 +1,69 @@
+{
+  "listResponse": [
+    {
+      "id": 1,
+      "date": "2020-05-21T16:59:07",
+      "folio": "1245745.00",
+      "policy": "M0008163344",
+      "serie": "H",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "plan": "plan",
+      "error": "error",
+      "errorType": "errorType"
+    },
+    {
+      "id": 2,
+      "date": "2020-05-21T16:59:07",
+      "folio": "1245745.00",
+      "policy": "M0008163344",
+      "serie": "H",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "plan": "plan",
+      "error": "error",
+      "errorType": "errorType"
+    },
+    {
+      "id": 3,
+      "date": "2020-05-21T16:59:07",
+      "folio": "1245745.00",
+      "policy": "M0008163344",
+      "serie": "H",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "plan": "plan",
+      "error": "error",
+      "errorType": "errorType"
+    },
+    {
+      "id": 4,
+      "date": "2020-05-21T16:59:07",
+      "folio": "1245745.00",
+      "policy": "M0008163344",
+      "serie": "H",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "plan": "plan",
+      "error": "error",
+      "errorType": "errorType"
+    },
+    {
+      "id": 5,
+      "date": "2020-05-21T16:59:07",
+      "folio": "1245745.00",
+      "policy": "M0008163344",
+      "serie": "H",
+      "system": "LSP",
+      "rfcReceiver": "BAT050829CF9",
+      "plan": "plan",
+      "error": "error",
+      "errorType": "errorType"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "pageSize": 10,
+    "total": 3
+  }
+}

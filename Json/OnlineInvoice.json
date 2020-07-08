@@ -32,19 +32,65 @@
     },
     {
       "id": "04",
-      "description": "Tarjeta de credito"
+      "description": "Tarjeta de crédito"
     },
     {
       "id": "05",
-      "description": "Monedero electronico"
+      "description": "Monedero electrónico"
     },
     {
       "id": "06",
-      "description": "Dinero electronico"
+      "description": "Dinero electrónico"
     },
     {
       "id": "08",
       "description": "Vales de despensa"
+    },
+
+    {
+      "id": "12",
+      "description": "Dación en pago"
+    },
+    {
+      "id": "13",
+      "description": "Pago por subrogación"
+    },
+    {
+      "id": "14",
+      "description": "Pago por consignación"
+    },
+    {
+      "id": "15",
+      "description": "Condonación"
+    },
+
+    {
+      "id": "17",
+      "description": "Compensación"
+    },
+
+    {
+      "id": "23",
+      "description": "Novación"
+    },
+
+    {
+      "id": "24",
+      "description": "Confusión"
+    },
+
+    {
+      "id": "25",
+      "description": "Remisión de deuda"
+    },
+
+    {
+      "id": "26",
+      "description": "Prescripción o caducidad"
+    },
+    {
+      "id": "27",
+      "description": "A satisfacción del acreedor"
     },
     {
       "id": "28",
@@ -95,12 +141,16 @@
   ],
   "transferTax": [
     {
-      "id": 1,
+      "id": "001",
       "description": "ISR"
     },
     {
-      "id": 2,
-      "description": "ISR2"
+      "id": "002",
+      "description": "IVA"
+    },
+    {
+      "id": "003",
+      "description": "IEPS"
     }
   ],
   "factorType": [

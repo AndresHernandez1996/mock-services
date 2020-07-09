@@ -141,15 +141,15 @@
   ],
   "transferTax": [
     {
-      "id": "001",
+      "id": "ISR",
       "description": "ISR"
     },
     {
-      "id": "002",
+      "id": "IVA",
       "description": "IVA"
     },
     {
-      "id": "003",
+      "id": "IEPS",
       "description": "IEPS"
     }
   ],

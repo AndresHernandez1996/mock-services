@@ -197,7 +197,7 @@
     {
       "key": 1,
       "id": 1,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "46454",
       "total": "56"
@@ -205,7 +205,7 @@
     {
       "key": 2,
       "id": 2,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "6454",
       "total": "20"
@@ -213,7 +213,7 @@
     {
       "key": 3,
       "id": 3,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "454",
       "total": "100"
@@ -221,7 +221,7 @@
     {
       "key": 4,
       "id": 4,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "1",
       "total": "78"
@@ -229,7 +229,7 @@
     {
       "key": 5,
       "id": 5,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "9688",
       "total": "5"
@@ -237,7 +237,7 @@
     {
       "key": 6,
       "id": 6,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "3442",
       "total": "99"
@@ -245,7 +245,7 @@
     {
       "key": 7,
       "id": 7,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "44774",
       "total": "577"
@@ -255,7 +255,7 @@
     {
       "key": 1,
       "id": 1,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "46454",
       "total": "56"
@@ -263,7 +263,7 @@
     {
       "key": 2,
       "id": 2,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "6454",
       "total": "20"
@@ -271,7 +271,7 @@
     {
       "key": 3,
       "id": 3,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "454",
       "total": "100"
@@ -279,7 +279,7 @@
     {
       "key": 4,
       "id": 4,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "1",
       "total": "78"
@@ -287,7 +287,7 @@
     {
       "key": 5,
       "id": 5,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "9688",
       "total": "5"
@@ -295,7 +295,7 @@
     {
       "key": 6,
       "id": 6,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "3442",
       "total": "99"
@@ -303,7 +303,7 @@
     {
       "key": 7,
       "id": 7,
-      "system": "GCTY",
+      "system": "GCAYE",
       "serie": "NULO",
       "folio": "44774",
       "total": "577"
@@ -313,7 +313,7 @@
     {
       "key": 1,
       "id": 1,
-      "serie": "Nulo",
+      "serie": "NULO",
       "folio": "9103535",
       "policy": "000458",
       "uuid": "123e4567-e89b-12d3-a456-426614174000",

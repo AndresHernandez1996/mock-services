@@ -1,19 +1,19 @@
 {
   "serie": [
     {
-      "id": 1,
+      "id": "1",
       "description": "HJ"
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "MB"
     },
     {
-      "id": 3,
+      "id": "3",
       "description": "AS"
     },
     {
-      "id": 4,
+      "id": "4",
       "description": "PT"
     }
   ],
@@ -107,35 +107,35 @@
   ],
   "paymentMethod": [
     {
-      "id": 1,
-      "description": "PPD"
+      "id": "PPD",
+      "description": "PPD Pago en parcialidardes o diferido"
     },
     {
-      "id": 2,
-      "description": "PUE"
+      "id": "PUE",
+      "description": "PUE Pago en una sola exhibicion"
     }
   ],
   "cfdiType": [
     {
-      "id": 1,
-      "description": "Factura"
+      "id": "G01",
+      "description": "Adquisicion de mercancias"
     },
     {
-      "id": 2,
-      "description": "Factura para hoteles"
+      "id": "G02",
+      "description": "Devoluciones, descuentos o bonificaciones"
     },
     {
-      "id": 3,
-      "description": "Recibo de honorarios"
+      "id": "G03",
+      "description": "Gastos en General"
     }
   ],
   "currency": [
     {
-      "id": 1,
-      "description": "MXP"
+      "id": "MXN",
+      "description": "MXN"
     },
     {
-      "id": 2,
+      "id": "USD",
       "description": "DOLLAR"
     }
   ],
@@ -155,32 +155,42 @@
   ],
   "factorType": [
     {
-      "id": 1,
+      "id": "Tasa",
       "description": "Tasa"
     },
     {
-      "id": 2,
-      "description": "Tasa2"
+      "id": "Cuota",
+      "description": "Cuota"
     }
   ],
   "system": [
     {
-      "id": 1,
+      "id": "GCAYE",
       "description": "GCAYE"
     },
     {
-      "id": 2,
+      "id": "YAYA",
       "description": "YAYA"
     }
   ],
   "documentType": [
     {
-      "id": 1,
+      "id": "F",
       "description": "Factura"
     },
     {
-      "id": 2,
+      "id": "I",
       "description": "Ingreso"
+    }
+  ],
+  "plan": [
+    {
+      "id": "plan01",
+      "description": "plan01"
+    },
+    {
+      "id": "plan02",
+      "description": "plan02"
     }
   ],
   "creditNote": [
@@ -189,56 +199,56 @@
       "id": 1,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 46454,
-      "total": 56
+      "folio": "46454",
+      "total": "56"
     },
     {
       "key": 2,
       "id": 2,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 6454,
-      "total": 20
+      "folio": "6454",
+      "total": "20"
     },
     {
       "key": 3,
       "id": 3,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 454,
-      "total": 100
+      "folio": "454",
+      "total": "100"
     },
     {
       "key": 4,
       "id": 4,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 1,
-      "total": 78
+      "folio": "1",
+      "total": "78"
     },
     {
       "key": 5,
       "id": 5,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 9688,
-      "total": 5
+      "folio": "9688",
+      "total": "5"
     },
     {
       "key": 6,
       "id": 6,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 3442,
-      "total": 99
+      "folio": "3442",
+      "total": "99"
     },
     {
       "key": 7,
       "id": 7,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 44774,
-      "total": 577
+      "folio": "44774",
+      "total": "577"
     }
   ],
   "paymentComplement": [
@@ -247,56 +257,56 @@
       "id": 1,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 46454,
-      "total": 56
+      "folio": "46454",
+      "total": "56"
     },
     {
       "key": 2,
       "id": 2,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 6454,
-      "total": 20
+      "folio": "6454",
+      "total": "20"
     },
     {
       "key": 3,
       "id": 3,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 454,
-      "total": 100
+      "folio": "454",
+      "total": "100"
     },
     {
       "key": 4,
       "id": 4,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 1,
-      "total": 78
+      "folio": "1",
+      "total": "78"
     },
     {
       "key": 5,
       "id": 5,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 9688,
-      "total": 5
+      "folio": "9688",
+      "total": "5"
     },
     {
       "key": 6,
       "id": 6,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 3442,
-      "total": 99
+      "folio": "3442",
+      "total": "99"
     },
     {
       "key": 7,
       "id": 7,
       "system": "GCTY",
       "serie": "NULO",
-      "folio": 44774,
-      "total": 577
+      "folio": "44774",
+      "total": "577"
     }
   ],
   "documentSubstitution": [

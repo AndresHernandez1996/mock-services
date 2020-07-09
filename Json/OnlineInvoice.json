@@ -183,16 +183,6 @@
       "description": "Ingreso"
     }
   ],
-  "plan": [
-    {
-      "id": "plan01",
-      "description": "plan01"
-    },
-    {
-      "id": "plan02",
-      "description": "plan02"
-    }
-  ],
   "personType": [
     {
       "id": "FISICA",

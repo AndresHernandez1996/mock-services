@@ -155,12 +155,12 @@
   ],
   "factorType": [
     {
-      "id": "Tasa",
-      "description": "Tasa"
+      "id": "TASA",
+      "description": "TASA"
     },
     {
-      "id": "Cuota",
-      "description": "Cuota"
+      "id": "CUOTA",
+      "description": "CUOTA"
     }
   ],
   "system": [

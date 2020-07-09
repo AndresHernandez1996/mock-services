@@ -193,6 +193,26 @@
       "description": "plan02"
     }
   ],
+  "personType": [
+    {
+      "id": "FISICA",
+      "description": "FISICA"
+    },
+    {
+      "id": "MORAL",
+      "description": "MORAL"
+    }
+  ],
+  "nationality": [
+    {
+      "id": "NACIONAL",
+      "description": "NACIONAL"
+    },
+    {
+      "id": "EXTRANJERA",
+      "description": "EXTRANJERA"
+    }
+  ],
   "creditNote": [
     {
       "key": 1,

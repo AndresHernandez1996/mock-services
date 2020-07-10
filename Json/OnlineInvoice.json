@@ -1,11 +1,11 @@
 {
   "serie": [
     {
-      "idSerie": "1",
+      "serieId": "1",
       "series": "F"
     },
     {
-      "idSerie": "2",
+      "serieId": "2",
       "series": "G"
     }
   ],

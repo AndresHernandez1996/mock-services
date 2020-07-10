@@ -1,12 +1,12 @@
 {
   "serie": [
     {
-      "id": "1",
-      "description": "F"
+      "idSerie": "1",
+      "serie": "F"
     },
     {
-      "id": "2",
-      "description": "G"
+      "idSerie": "2",
+      "serie": "G"
     }
   ],
   "paymentType": [

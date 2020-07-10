@@ -2,11 +2,11 @@
   "serie": [
     {
       "idSerie": "1",
-      "serie": "F"
+      "series": "F"
     },
     {
       "idSerie": "2",
-      "serie": "G"
+      "series": "G"
     }
   ],
   "paymentType": [

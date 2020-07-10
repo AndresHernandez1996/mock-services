@@ -2,19 +2,11 @@
   "serie": [
     {
       "id": "1",
-      "description": "HJ"
+      "description": "F"
     },
     {
       "id": "2",
-      "description": "MB"
-    },
-    {
-      "id": "3",
-      "description": "AS"
-    },
-    {
-      "id": "4",
-      "description": "PT"
+      "description": "G"
     }
   ],
   "paymentType": [

@@ -1,0 +1,20 @@
+{
+  "massDownload": [
+    {
+    "idMassDownload" : 1,
+    "TypeMassDownload": "broker",
+    "source": "broker"
+    },
+    {
+      "idMassDownload" : 2,
+      "TypeMassDownload": "cronograma",
+      "source": "cronograma"
+    },
+    {
+      "idMassDownload" : 3,
+      "TypeMassDownload": "celula",
+      "source": "celula"
+    }
+]
+
+}

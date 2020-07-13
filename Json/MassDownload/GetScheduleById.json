@@ -1,0 +1,22 @@
+{
+  "massDownload": {
+    "idMassDownload": 1,
+    "massDownloadlist": [
+      {
+      "idMassDownload" : 1,
+      "broker": "Broker",
+      "periodicity": "Quincenal"
+      },
+      {
+        "idMassDownload" : 2,
+        "broker": "Broker",
+        "periodicity": "Mensual"
+        },
+        {
+          "idMassDownload" : 4,
+          "broker": "Broker",
+          "periodicity": "Semanal"
+      }
+    ]}
+
+}

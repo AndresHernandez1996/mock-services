@@ -1,37 +1,46 @@
 {
-  "series": [
-    {
-      "idSerie": 1,
-      "rfc": "AMS020725UJ1",
-      "documentType": "Factura",
-      "serie": "HD",
-      "aprovedNum": 2,
-      "aprovedYear": "2010",
-      "initialNumber": "1",
-      "finalNumber": "10",
-      "currentNumber": "1"
-    },
-    {
-      "idSerie": 2,
-      "rfc": "AMS020725UJ1",
-      "documentType": "Factura",
-      "serie": "HD",
-      "aprovedNum": 2,
-      "aprovedYear": "2010",
-      "initialNumber": "1",
-      "finalNumber": "10",
-      "currentNumber": "1"
-    },
-    {
-      "idSerie": 3,
-      "rfc": "AMS020725UJ1",
-      "documentType": "Factura",
-      "serie": "HD",
-      "aprovedNum": 2,
-      "aprovedYear": "2010",
-      "initialNumber": "1",
-      "finalNumber": "10",
-      "currentNumber": "1"
-    }
-  ]
+  "extension": {
+    "variations": [
+      {
+        "idSerie": 1,
+        "rfc": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "aprovedNum": 2,
+        "aprovedYear": "2010",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentNumber": "1"
+      },
+      {
+        "idSerie": 2,
+        "rfc": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "aprovedNum": 2,
+        "aprovedYear": "2010",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentNumber": "1"
+      },
+      {
+        "idSerie": 3,
+        "rfc": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "aprovedNum": 2,
+        "aprovedYear": "2010",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentNumber": "1"
+      }
+    ]
+  },
+  "metadata": {
+    "page": "1",
+    "perPage": "20",
+    "columnOrder": "ID",
+    "typeOrder": "DESC",
+    "totalPages": "20"
+  }
 }

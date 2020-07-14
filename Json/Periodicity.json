@@ -1,0 +1,16 @@
+{
+  "periodicity": [
+    {
+      "idPeriodicity": 1,
+      "namePeriodicity": "Semanal"
+    },
+    {
+      "idPeriodicity": 2,
+      "namePeriodicity": "Quincenal"
+    },
+    {
+      "idPeriodicity": 3,
+      "namePeriodicity": "Mensual"
+    }
+  ]
+}

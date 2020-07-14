@@ -123,16 +123,7 @@
       "description": "YAYA"
     }
   ],
-  "documentType": [
-    {
-      "id": 1,
-      "description": "Factura"
-    },
-    {
-      "id": 2,
-      "description": "Ingreso"
-    }
-  ],
+
   "creditNote": [
     {
       "key": 1,

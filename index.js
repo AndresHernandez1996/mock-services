@@ -384,3 +384,18 @@ app.get('/multipack', (req, res) => {
 app.post('/saveMultipack', (req, res) => {
   res.status(200).send(saveInvoice)
 })
+
+/**
+ * Multipack
+ */
+app.post('/sendMasiveLoading', (req, res) => {
+  res.status(200).send({
+    codeId: 200,
+    data: {
+      file: 'c2FkYXNka2FqZGpqYXNkDQpzYWQNCnNhZA0Kc2FkDQpzYWQNCnNhZA0Kc2E=',
+      level: 'error',
+      message: 'Total de Registros 24',
+      title: 'Operación exitosa',
+    },
+  })
+})

@@ -1,8 +1,8 @@
 {
-    "system": [
-      { "idSystem": 1, "nameSystem": "SIVI" },
-      { "idSystem": 2, "nameSystem": "ROVI" },
-      { "idSystem": 3, "nameSystem": "JOVI" },
-      { "idSystem": 4, "nameSystem": "KOVI" }
-    ]
-  }
+  "system": [
+    { "id": 1, "label": "SIVI" },
+    { "id": 2, "label": "ROVI" },
+    { "id": 3, "label": "JOVI" },
+    { "id": 4, "label": "KOVI" }
+  ]
+}

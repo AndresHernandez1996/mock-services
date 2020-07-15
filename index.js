@@ -237,6 +237,7 @@ app.get('/getDocumentTypes', (req, res) => {
 
 // REPORTS -------------------------------------
 app.get('/filterReports', (req, res) => {
+  console.log('BODY', req)
   res.status(200).send(filterReports)
 })
 

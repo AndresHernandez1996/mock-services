@@ -1,8 +1,8 @@
 {
   "series": [
-    { "idSerie": 1, "nameSerie": "H" },
-    { "idSerie": 2, "nameSerie": "I" },
-    { "idSerie": 3, "nameSerie": "J" },
-    { "idSerie": 4, "nameSerie": "K" }
+    { "id": 1, "label": "H" },
+    { "id": 2, "label": "I" },
+    { "id": 3, "label": "J" },
+    { "id": 4, "label": "K" }
   ]
 }

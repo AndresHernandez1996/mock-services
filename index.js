@@ -35,9 +35,16 @@ const filterCancelations = require('./Json/Vouchers/Cancelations/GetCancelations
 const Exports = require('./Json/Vouchers/Cancelations/GetExport.json')
 const resumenGCAYE = require('./Json/Monitor/GCAYE/GetGCAYE')
 const detailGcaye = require('./Json/Monitor/GCAYE/DetailGcaye')
+const getMassDownload = require('./Json/MassDownload/getMassDownload.json')
+const getScheduleById = require('./Json/MassDownload/GetScheduleById.json')
+const createMassDownload = require('./Json/MassDownload/CreateMassDownload.json')
+const updateMassDownload = require('./Json/MassDownload/UpdateMassDownload.json')
+const getOneBroker = require('./Json/MassDownload/GetOneBroker.json')
 const getStatus = require('./Json/Status')
 const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
+const getPeriodicity = require('./Json/Periodicity.json')
 const getPeriod = require('./Json/Period.json')
+const getCellById = require('./Json/MassDownload/GetCellById.json')
 
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
@@ -361,10 +368,29 @@ app.get('/getPeriod', (req, res) => {
 })
 // Period
 
-app.listen(8080, () => {
-  // eslint-disable-next-line no-console
-  console.log('Example app listening on port https://localhost:8080')
+// MassDownload
+app.get('/getMassDownload', (req, res) => {
+  res.status(200).send(getMassDownload)
 })
+app.get('/getOneBroker', (req, res) => {
+  res.status(200).send(getOneBroker)
+})
+app.get('/getScheduleById', (req, res) => {
+  res.status(200).send(getScheduleById)
+})
+app.get('/getCellById', (req, res) => {
+  res.status(200).send(getCellById)
+})
+
+app.post('/saveMassDowload', (req, res) => {
+  res.status(200).send(createMassDownload)
+})
+
+app.put('/saveMassDowload', (req, res) => {
+  res.status(200).send(updateMassDownload)
+})
+
+// MassDownload
 
 // Monitor ECOSYS-PAC
 app.get('/getEcosysPac', (req, res) => {
@@ -374,6 +400,10 @@ app.get('/getEcosysPacDetail', (req, res) => {
   res.status(200).send(getEcosysPacDetail)
 })
 
+// Periodicity
+app.get('/getPeriodicity', (req, res) => {
+  res.status(200).send(getPeriodicity)
+})
 /**
  * Multipack
  */
@@ -384,4 +414,45 @@ app.get('/multipack', (req, res) => {
 // 200 ok
 app.post('/saveMultipack', (req, res) => {
   res.status(200).send(saveInvoice)
+})
+
+app.post('/gestion/operations/massive-load/bulkLoad', (req, res) => {
+  res.status(200).send({
+    codeId: 200,
+    data: {
+      file: 'c2FkYXNka2FqZGpqYXNkDQpzYWQNCnNhZA0Kc2FkDQpzYWQNCnNhZA0Kc2E=',
+      level: 'error',
+      message: 'Total de Registros 24',
+      title: 'Operación exitosa',
+    },
+  })
+})
+
+/*
+ * series mock ok
+ */
+
+app.post('/configurations/series', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.patch('/configurations/series', (req, res) => {
+  res.status(200).send(succes)
+})
+
+app.delete('/configurations/series/:id', (req, res) => {
+  res.status(200).send(remove)
+})
+
+app.get('/configurations/series/:id', (req, res) => {
+  res.status(200).send(seriesList.extension.variations[0])
+})
+
+app.get('/configurations/series', (req, res) => {
+  res.status(200).send(seriesList)
+})
+
+app.listen(8080, () => {
+  // eslint-disable-next-line no-console
+  console.log('Example app listening on port https://localhost:8080')
 })

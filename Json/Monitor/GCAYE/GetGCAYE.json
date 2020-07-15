@@ -1,5 +1,5 @@
 {
-  "gcaye": 
+  "gcaye":
     {
       "system":"GCAYE",
       "initDate":"02-noviembre-2019",
@@ -11,7 +11,7 @@
           "received":160,
           "forward":30 ,
           "bugIdentified": 10,
-          "total":20
+          "total":190
         },
         {
           "idSummary": 2,
@@ -19,7 +19,7 @@
           "received":250,
           "forward":70 ,
           "bugIdentified": 1,
-          "total":200
+          "total":320
         },
         {
           "idSummary": 3,
@@ -27,15 +27,15 @@
           "received":340,
           "forward":2 ,
           "bugIdentified": 10,
-          "total":110
+          "total":342
         },
         {
           "idSummary": 1,
-          "documentType": " solicitud de cancelacion",
+          "documentType": " Solicitud de cancelacion",
           "received":160,
           "forward":30 ,
           "bugIdentified": 10,
-          "total":20
+          "total":190
         }
       ]
     }

@@ -1,0 +1,25 @@
+{
+  "massDownload": {
+    "idMassDownload": 1,
+    "massDownloadlist": [
+      {
+      "idMassDownload" : 1,
+      "name": "Broker.csv",
+      "file" : "",
+      "noRegister": "50"
+      },
+      {
+        "idMassDownload" : 2,
+        "name": "ADN.csv",
+        "file" : "",
+        "noRegister": "100"
+        },
+        {
+          "idMassDownload" : 4,
+          "name": "AON.csv",
+          "file" : "",
+          "noRegister": "1000"
+      }
+    ]}
+
+}

@@ -44,3 +44,13 @@
     "totalPages": "20"
   }
 }
+
+
+// response para descarga
+
+{
+  "fileName": "EMMANUEL_MORALES_123123123",
+  "fileExtention": "zip",
+  "fileSize": 1000024,
+  "file": "PD94bWwglvbj0iMS4wIiBlbmNvZGluZz0iVVRG=",
+}

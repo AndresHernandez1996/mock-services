@@ -457,5 +457,5 @@ app.listen(8080, () => {
 })
 
 app.get('/gestion/configurations/seriesInvoice', (req, res) => {
-  res.status(200).send(seriesList.extension.variations[0])
+  res.status(200).send(seriesList.extension.variations)
 })

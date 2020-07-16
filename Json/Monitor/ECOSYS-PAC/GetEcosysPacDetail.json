@@ -47,5 +47,10 @@
         "date" : "29 febreo 2020",
         "noAgent" : "00B"
     }
-    ]
+    ],
+    "pagination": {
+      "current": 1,
+      "pageSize": 10,
+      "total": 3
+    }
 }

@@ -452,7 +452,49 @@ app.get('/configurations/series', (req, res) => {
 })
 
 app.get('/gestion/configurations/seriesInvoice', (req, res) => {
-  res.status(200).send(seriesList.extension.variations)
+  res.status(200).send(onlineInvoice.serie.extension.variations)
+})
+app.get('/gestion/configurations/paymentType', (req, res) => {
+  res.status(200).send(onlineInvoice.paymentType.extension.variations)
+})
+app.get('/gestion/configurations/paymentMethod', (req, res) => {
+  res.status(200).send(onlineInvoice.paymentMethod.extension.variations)
+})
+app.get('/gestion/configurations/cfdiType', (req, res) => {
+  res.status(200).send(onlineInvoice.cfdiType.extension.variations)
+})
+app.get('/gestion/configurations/currency', (req, res) => {
+  res.status(200).send(onlineInvoice.currency.extension.variations)
+})
+app.get('/gestion/configurations/transferTax', (req, res) => {
+  res.status(200).send(onlineInvoice.transferTax.extension.variations)
+})
+app.get('/gestion/configurations/factorType', (req, res) => {
+  res.status(200).send(onlineInvoice.factorType.extension.variations)
+})
+app.get('/gestion/configurations/system', (req, res) => {
+  res.status(200).send(onlineInvoice.system.extension.variations)
+})
+app.get('/gestion/configurations/documentType', (req, res) => {
+  res.status(200).send(onlineInvoice.documentType.extension.variations)
+})
+app.get('/gestion/configurations/creditNote', (req, res) => {
+  res.status(200).send(onlineInvoice.creditNote.extension.variations)
+})
+app.get('/gestion/configurations/paymentComplement', (req, res) => {
+  res.status(200).send(onlineInvoice.paymentComplement.extension.variations)
+})
+app.get('/gestion/configurations/documentSubstitution', (req, res) => {
+  res.status(200).send(onlineInvoice.documentSubstitution.extension.variations)
+})
+app.get('/gestion/configurations/annulment', (req, res) => {
+  res.status(200).send(onlineInvoice.annulment.extension.variations)
+})
+app.get('/gestion/configurations/personType', (req, res) => {
+  res.status(200).send(onlineInvoice.personType.extension.variations)
+})
+app.get('/gestion/configurations/nationality', (req, res) => {
+  res.status(200).send(onlineInvoice.nationality.extension.variations)
 })
 
 app.listen(8080, () => {

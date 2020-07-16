@@ -1,387 +1,578 @@
 {
-  "serie": [
-    {
-      "serieId": "1",
-      "series": "F"
+  "serie": {
+    "extension": {
+      "variations": [
+        {
+          "serieId": "1",
+          "series": "F"
+        },
+        {
+          "serieId": "2",
+          "series": "G"
+        }
+      ]
     },
-    {
-      "serieId": "2",
-      "series": "G"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "paymentType": [
-    {
-      "id": "01",
-      "description": "Efectivo"
-    },
-    {
-      "id": "02",
-      "description": "Cheque nominativo"
-    },
-    {
-      "id": "03",
-      "description": "Transferencia electronica de fondos"
-    },
-    {
-      "id": "04",
-      "description": "Tarjeta de crédito"
-    },
-    {
-      "id": "05",
-      "description": "Monedero electrónico"
-    },
-    {
-      "id": "06",
-      "description": "Dinero electrónico"
-    },
-    {
-      "id": "08",
-      "description": "Vales de despensa"
-    },
+  },
 
-    {
-      "id": "12",
-      "description": "Dación en pago"
-    },
-    {
-      "id": "13",
-      "description": "Pago por subrogación"
-    },
-    {
-      "id": "14",
-      "description": "Pago por consignación"
-    },
-    {
-      "id": "15",
-      "description": "Condonación"
-    },
+  "paymentType": {
+    "extension": {
+      "variations": [
+        {
+          "id": "01",
+          "description": "Efectivo"
+        },
+        {
+          "id": "02",
+          "description": "Cheque nominativo"
+        },
+        {
+          "id": "03",
+          "description": "Transferencia electronica de fondos"
+        },
+        {
+          "id": "04",
+          "description": "Tarjeta de crédito"
+        },
+        {
+          "id": "05",
+          "description": "Monedero electrónico"
+        },
+        {
+          "id": "06",
+          "description": "Dinero electrónico"
+        },
+        {
+          "id": "08",
+          "description": "Vales de despensa"
+        },
 
-    {
-      "id": "17",
-      "description": "Compensación"
-    },
+        {
+          "id": "12",
+          "description": "Dación en pago"
+        },
+        {
+          "id": "13",
+          "description": "Pago por subrogación"
+        },
+        {
+          "id": "14",
+          "description": "Pago por consignación"
+        },
+        {
+          "id": "15",
+          "description": "Condonación"
+        },
 
-    {
-      "id": "23",
-      "description": "Novación"
-    },
+        {
+          "id": "17",
+          "description": "Compensación"
+        },
 
-    {
-      "id": "24",
-      "description": "Confusión"
-    },
+        {
+          "id": "23",
+          "description": "Novación"
+        },
 
-    {
-      "id": "25",
-      "description": "Remisión de deuda"
-    },
+        {
+          "id": "24",
+          "description": "Confusión"
+        },
 
-    {
-      "id": "26",
-      "description": "Prescripción o caducidad"
+        {
+          "id": "25",
+          "description": "Remisión de deuda"
+        },
+
+        {
+          "id": "26",
+          "description": "Prescripción o caducidad"
+        },
+        {
+          "id": "27",
+          "description": "A satisfacción del acreedor"
+        },
+        {
+          "id": "28",
+          "description": "Tarjeta de debito"
+        },
+        {
+          "id": "29",
+          "description": "Tarjeta de servicio"
+        },
+        {
+          "id": "99",
+          "description": "Otros"
+        }
+      ]
     },
-    {
-      "id": "27",
-      "description": "A satisfacción del acreedor"
-    },
-    {
-      "id": "28",
-      "description": "Tarjeta de debito"
-    },
-    {
-      "id": "29",
-      "description": "Tarjeta de servicio"
-    },
-    {
-      "id": "99",
-      "description": "Otros"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "paymentMethod": [
-    {
-      "id": "PPD",
-      "description": "PPD Pago en parcialidardes o diferido"
+  },
+
+  "paymentMethod": {
+    "extension": {
+      "variations": [
+        {
+          "id": "PPD",
+          "description": "PPD Pago en parcialidardes o diferido"
+        },
+        {
+          "id": "PUE",
+          "description": "PUE Pago en una sola exhibicion"
+        }
+      ]
     },
-    {
-      "id": "PUE",
-      "description": "PUE Pago en una sola exhibicion"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "cfdiType": [
-    {
-      "id": "G01",
-      "description": "Adquisicion de mercancias"
+  },
+
+  "cfdiType": {
+    "extension": {
+      "variations": [
+        {
+          "id": "G01",
+          "description": "Adquisicion de mercancias"
+        },
+        {
+          "id": "G02",
+          "description": "Devoluciones, descuentos o bonificaciones"
+        },
+        {
+          "id": "G03",
+          "description": "Gastos en General"
+        }
+      ]
     },
-    {
-      "id": "G02",
-      "description": "Devoluciones, descuentos o bonificaciones"
-    },
-    {
-      "id": "G03",
-      "description": "Gastos en General"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "currency": [
-    {
-      "id": "MXN",
-      "description": "MXN"
+  },
+
+  "currency": {
+    "extension": {
+      "variations": [
+        {
+          "id": "MXN",
+          "description": "MXN"
+        },
+        {
+          "id": "USD",
+          "description": "DOLLAR"
+        }
+      ]
     },
-    {
-      "id": "USD",
-      "description": "DOLLAR"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "transferTax": [
-    {
-      "id": "ISR",
-      "description": "ISR"
+  },
+
+  "transferTax": {
+    "extension": {
+      "variations": [
+        {
+          "id": "ISR",
+          "description": "ISR"
+        },
+        {
+          "id": "IVA",
+          "description": "IVA"
+        },
+        {
+          "id": "IEPS",
+          "description": "IEPS"
+        }
+      ]
     },
-    {
-      "id": "IVA",
-      "description": "IVA"
-    },
-    {
-      "id": "IEPS",
-      "description": "IEPS"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "factorType": [
-    {
-      "id": "TASA",
-      "description": "TASA"
+  },
+
+  "factorType": {
+    "extension": {
+      "variations": [
+        {
+          "id": "TASA",
+          "description": "TASA"
+        },
+        {
+          "id": "CUOTA",
+          "description": "CUOTA"
+        }
+      ]
     },
-    {
-      "id": "CUOTA",
-      "description": "CUOTA"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "system": [
-    {
-      "id": "GCAYE",
-      "description": "GCAYE"
+  },
+
+  "system": {
+    "extension": {
+      "variations": [
+        {
+          "id": "GCAYE",
+          "description": "GCAYE"
+        },
+        {
+          "id": "YAYA",
+          "description": "YAYA"
+        }
+      ]
     },
-    {
-      "id": "YAYA",
-      "description": "YAYA"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "documentType": [
-    {
-      "id": "F",
-      "description": "Factura"
+  },
+
+  "documentType": {
+    "extension": {
+      "variations": [
+        {
+          "id": "F",
+          "description": "Factura"
+        },
+        {
+          "id": "I",
+          "description": "Ingreso"
+        }
+      ]
     },
-    {
-      "id": "I",
-      "description": "Ingreso"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "personType": [
-    {
-      "id": "FISICA",
-      "description": "FISICA"
+  },
+
+  "personType": {
+    "extension": {
+      "variations": [
+        {
+          "id": "FISICA",
+          "description": "FISICA"
+        },
+        {
+          "id": "MORAL",
+          "description": "MORAL"
+        }
+      ]
     },
-    {
-      "id": "MORAL",
-      "description": "MORAL"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "nationality": [
-    {
-      "id": "NACIONAL",
-      "description": "NACIONAL"
+  },
+
+  "nationality": {
+    "extension": {
+      "variations": [
+        {
+          "id": "NACIONAL",
+          "description": "NACIONAL"
+        },
+        {
+          "id": "EXTRANJERA",
+          "description": "EXTRANJERA"
+        }
+      ]
     },
-    {
-      "id": "EXTRANJERA",
-      "description": "EXTRANJERA"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "creditNote": [
-    {
-      "key": 1,
-      "id": 1,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "56"
+  },
+
+  "creditNote": {
+    "extension": {
+      "variations": [
+        {
+          "key": 1,
+          "id": 1,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "56"
+        },
+        {
+          "key": 2,
+          "id": 2,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "20"
+        },
+        {
+          "key": 3,
+          "id": 3,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "100"
+        },
+        {
+          "key": 4,
+          "id": 4,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "78"
+        },
+        {
+          "key": 5,
+          "id": 5,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "5"
+        },
+        {
+          "key": 6,
+          "id": 6,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "99"
+        },
+        {
+          "key": 7,
+          "id": 7,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "577"
+        },
+        {
+          "key": 8,
+          "id": 8,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "577"
+        },
+        {
+          "key": 9,
+          "id": 9,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "577"
+        },
+        {
+          "key": 10,
+          "id": 10,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "577"
+        },
+        {
+          "key": 11,
+          "id": 11,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "577"
+        },
+        {
+          "key": 12,
+          "id": 12,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "6687621",
+          "total": "577"
+        }
+      ]
     },
-    {
-      "key": 2,
-      "id": 2,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "20"
-    },
-    {
-      "key": 3,
-      "id": 3,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "100"
-    },
-    {
-      "key": 4,
-      "id": 4,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "78"
-    },
-    {
-      "key": 5,
-      "id": 5,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "5"
-    },
-    {
-      "key": 6,
-      "id": 6,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "99"
-    },
-    {
-      "key": 7,
-      "id": 7,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "577"
-    },
-    {
-      "key": 8,
-      "id": 8,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "577"
-    },
-    {
-      "key": 9,
-      "id": 9,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "577"
-    },
-    {
-      "key": 10,
-      "id": 10,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "577"
-    },
-    {
-      "key": 11,
-      "id": 11,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "577"
-    },
-    {
-      "key": 12,
-      "id": 12,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "6687621",
-      "total": "577"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "paymentComplement": [
-    {
-      "key": 1,
-      "id": 1,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "56"
+  },
+
+  "paymentComplement": {
+    "extension": {
+      "variations": [
+        {
+          "key": 1,
+          "id": 1,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "56"
+        },
+        {
+          "key": 2,
+          "id": 2,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "20"
+        },
+        {
+          "key": 3,
+          "id": 3,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "100"
+        },
+        {
+          "key": 4,
+          "id": 4,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "78"
+        },
+        {
+          "key": 5,
+          "id": 5,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "5"
+        },
+        {
+          "key": 6,
+          "id": 6,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "99"
+        },
+        {
+          "key": 7,
+          "id": 7,
+          "system": "GCAYE",
+          "serie": "NULO",
+          "folio": "56565",
+          "total": "577"
+        }
+      ]
     },
-    {
-      "key": 2,
-      "id": 2,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "20"
-    },
-    {
-      "key": 3,
-      "id": 3,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "100"
-    },
-    {
-      "key": 4,
-      "id": 4,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "78"
-    },
-    {
-      "key": 5,
-      "id": 5,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "5"
-    },
-    {
-      "key": 6,
-      "id": 6,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "99"
-    },
-    {
-      "key": 7,
-      "id": 7,
-      "system": "GCAYE",
-      "serie": "NULO",
-      "folio": "56565",
-      "total": "577"
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "documentSubstitution": [
-    {
-      "key": 1,
-      "id": 1,
-      "serie": "NULO",
-      "folio": "19422001",
-      "policy": "I000746715",
-      "uuid": "123e4567-e89b-12d3-a456-426614174000",
-      "total": "219"
+  },
+
+  "documentSubstitution": {
+    "extension": {
+      "variations": [
+        {
+          "key": 1,
+          "id": 1,
+          "serie": "NULO",
+          "folio": "19422001",
+          "policy": "I000746715",
+          "uuid": "123e4567-e89b-12d3-a456-426614174000",
+          "total": "219"
+        }
+      ]
+    },
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "annulment": [
-    {
-      "key": 1,
-      "id": 1,
-      "serie": "NULO",
-      "folio": "19422001",
-      "policy": "I000746715",
-      "invoice": "",
-      "rfc": "AQDX55254347",
-      "total": "8.20"
+  },
+
+  "annulment": {
+    "extension": {
+      "variations": [
+        {
+          "key": 1,
+          "id": 1,
+          "serie": "NULO",
+          "folio": "19422001",
+          "policy": "I000746715",
+          "invoice": "",
+          "rfc": "AQDX55254347",
+          "total": "8.20"
+        }
+      ]
+    },
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ],
-  "preAnnulment": [
-    {
-      "serie": "NULO",
-      "folio": "19422001",
-      "policy": "I000746715",
-      "documentType": "Complemento Pago",
-      "rfc": "AQDX55254347",
-      "total": "8.20"
+  },
+
+  "preAnnulment": {
+    "extension": {
+      "variations": [
+        {
+          "serie": "NULO",
+          "folio": "19422001",
+          "policy": "I000746715",
+          "documentType": "Complemento Pago",
+          "rfc": "AQDX55254347",
+          "total": "8.20"
+        }
+      ]
+    },
+    "metadata": {
+      "page": "1",
+      "perPage": "20",
+      "columnOrder": "ID",
+      "typeOrder": "DESC",
+      "totalPages": "20"
     }
-  ]
+  }
 }

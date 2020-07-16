@@ -455,3 +455,7 @@ app.listen(8080, () => {
   // eslint-disable-next-line no-console
   console.log('Example app listening on port https://localhost:8080')
 })
+
+app.get('/gestion/configurations/seriesInvoice', (req, res) => {
+  res.status(200).send(seriesList.extension.variations[0])
+})

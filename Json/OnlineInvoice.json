@@ -335,8 +335,8 @@
           "id": 1,
           "system": "GCAYE",
           "serie": "NULO",
-          "folio": "6687621",
-          "total": "56"
+          "folio": "19422001",
+          "total": "56.00"
         },
         {
           "key": 2,
@@ -344,7 +344,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "20"
+          "total": "20.00"
         },
         {
           "key": 3,
@@ -352,7 +352,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "100"
+          "total": "100.00"
         },
         {
           "key": 4,
@@ -360,7 +360,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "78"
+          "total": "78.10"
         },
         {
           "key": 5,
@@ -368,7 +368,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "5"
+          "total": "5.99"
         },
         {
           "key": 6,
@@ -376,7 +376,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "99"
+          "total": "99.30"
         },
         {
           "key": 7,
@@ -384,7 +384,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "577"
+          "total": "577.10"
         },
         {
           "key": 8,
@@ -392,7 +392,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "577"
+          "total": "577.70"
         },
         {
           "key": 9,
@@ -400,7 +400,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "577"
+          "total": "577.80"
         },
         {
           "key": 10,
@@ -408,7 +408,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "577"
+          "total": "577.20"
         },
         {
           "key": 11,
@@ -416,7 +416,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "577"
+          "total": "577.04"
         },
         {
           "key": 12,
@@ -424,7 +424,7 @@
           "system": "GCAYE",
           "serie": "NULO",
           "folio": "6687621",
-          "total": "577"
+          "total": "577.30"
         }
       ]
     },

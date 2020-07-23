@@ -445,60 +445,108 @@
     "extension": {
       "variations": [
         {
-          "key": 1,
-          "id": 1,
+          "data": {
+            "certificateNumber": "30001000000300023699",
+            "coin": "MXN",
+            "concepts": [
+              {
+                "description": "SEGUROS DE VIDA RECARGOS POR PAGO FRACCIONADO",
+                "productKeyService": "84131601",
+                "quantity": 1.0,
+                "transfer": {
+                  "base": 2343.99,
+                  "tax": "IVA",
+                  "typeFactor": "Exento"
+                },
+                "unitMeasure": "E48",
+                "unitValue": 2343.99
+              },
+              {
+                "description": "SEGUROS DE VIDA RECARGOS POR PAGO FRACCIONADO",
+                "productKeyService": "84131601",
+                "quantity": 1.0,
+                "transfer": {
+                  "base": 2343.99,
+                  "tax": "IVA",
+                  "typeFactor": "Exento"
+                },
+                "unitMeasure": "E48",
+                "unitValue": 2343.99
+              }
+            ],
+            "exchangeRate": 1.0,
+            "paymentMethod": "PPD",
+            "policyNum": "M0008163",
+            "receiver": {
+              "rfc": "BIA191106ET2",
+              "useCFDI": "G03"
+            },
+            "shapePayment": "99",
+            "subtotal": 60943.69,
+            "total": 60943.69
+          },
           "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "56"
+          "coin": "MXN",
+          "exchangeRate": "1.0",
+          "total": "6892.53",
+          "series": "H",
+          "folio": "3065333"
         },
         {
-          "key": 2,
-          "id": 2,
+          "data": {
+            "certificateNumber": "30001000000100000800",
+            "coin": "MXN",
+            "concepts": [
+              {
+                "description": "SEGUROS DE GASTOS MEDICOS MAYORES RECARGOS POR PAGO FRACCIONADO",
+                "productKeyService": "84131602",
+                "quantity": 1.0,
+                "transfer": {
+                  "amount": 43.09,
+                  "base": 269.32,
+                  "rateOrFee": 0.16,
+                  "tax": "IVA",
+                  "typeFactor": "Tasa"
+                },
+                "unitMeasure": "E48",
+                "unitValue": 269.32
+              },
+              {
+                "description": "SEGUROS DE GASTOS MEDICOS MAYORES RECARGOS POR PAGO FRACCIONADO",
+                "productKeyService": "84131602",
+                "quantity": 1.0,
+                "transfer": {
+                  "amount": 43.09,
+                  "base": 269.32,
+                  "rateOrFee": 0.16,
+                  "tax": "IVA",
+                  "typeFactor": "Tasa"
+                },
+                "unitMeasure": "E48",
+                "unitValue": 269.32
+              }
+            ],
+            "exchangeRate": 1.0,
+            "paymentMethod": "PUE",
+            "policyNum": "M0008163",
+            "receiver": {
+              "name": "BRITISH AMERICAN TOBACCO SERVICIOS, S.A. DE C.V.",
+              "nationality": "MORAL",
+              "rfc": "BAT050829CF9",
+              "useCFDI": "G03"
+            },
+            "shapePayment": "03",
+            "subtotal": 9246.76,
+            "total": 10726.24,
+            "validFrom": "2020-07-10 11:14:30",
+            "validUntil": "2020-07-13 11:14:33"
+          },
           "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "20"
-        },
-        {
-          "key": 3,
-          "id": 3,
-          "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "100"
-        },
-        {
-          "key": 4,
-          "id": 4,
-          "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "78"
-        },
-        {
-          "key": 5,
-          "id": 5,
-          "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "5"
-        },
-        {
-          "key": 6,
-          "id": 6,
-          "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "99"
-        },
-        {
-          "key": 7,
-          "id": 7,
-          "system": "GCAYE",
-          "serie": "NULO",
-          "folio": "56565",
-          "total": "577"
+          "coin": "MXN",
+          "exchangeRate": "1.0",
+          "total": "62.53",
+          "series": "H",
+          "folio": "3902"
         }
       ]
     },

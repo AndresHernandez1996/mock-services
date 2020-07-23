@@ -2,10 +2,10 @@
   "extension": {
     "variations": [
       {
-        "idSerie": 1,
+        "seriesId": 1,
         "rfc": "AMS020725UJ1",
         "documentType": "Factura",
-        "serie": "HD",
+        "series": "HD",
         "aprovedNum": 2,
         "aprovedYear": "2010",
         "initialNumber": "1",
@@ -13,10 +13,10 @@
         "currentNumber": "1"
       },
       {
-        "idSerie": 2,
+        "seriesId": 2,
         "rfc": "AMS020725UJ1",
         "documentType": "Factura",
-        "serie": "HD",
+        "series": "HD",
         "aprovedNum": 2,
         "aprovedYear": "2010",
         "initialNumber": "1",
@@ -24,10 +24,10 @@
         "currentNumber": "1"
       },
       {
-        "idSerie": 3,
+        "seriesId": 3,
         "rfc": "AMS020725UJ1",
         "documentType": "Factura",
-        "serie": "HD",
+        "series": "HD",
         "aprovedNum": 2,
         "aprovedYear": "2010",
         "initialNumber": "1",

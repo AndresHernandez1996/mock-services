@@ -457,6 +457,52 @@ app.get('/configurations/series', (req, res) => {
   res.status(200).send(seriesList)
 })
 
+app.get('/gestion/configurations/seriesInvoice', (req, res) => {
+  res.status(200).send(onlineInvoice.serie)
+})
+app.get('/gestion/configurations/paymentType', (req, res) => {
+  res.status(200).send(onlineInvoice.paymentType)
+})
+app.get('/gestion/configurations/paymentMethod', (req, res) => {
+  res.status(200).send(onlineInvoice.paymentMethod)
+})
+app.get('/gestion/configurations/cfdiType', (req, res) => {
+  res.status(200).send(onlineInvoice.cfdiType)
+})
+app.get('/gestion/configurations/currency', (req, res) => {
+  res.status(200).send(onlineInvoice.currency)
+})
+app.get('/gestion/configurations/transferTax', (req, res) => {
+  res.status(200).send(onlineInvoice.transferTax)
+})
+app.get('/gestion/configurations/factorType', (req, res) => {
+  res.status(200).send(onlineInvoice.factorType)
+})
+app.get('/gestion/configurations/system', (req, res) => {
+  res.status(200).send(onlineInvoice.system)
+})
+app.get('/gestion/configurations/documentType', (req, res) => {
+  res.status(200).send(onlineInvoice.documentType)
+})
+app.get('/gestion/configurations/creditNote', (req, res) => {
+  res.status(200).send(onlineInvoice.creditNote)
+})
+app.get('/gestion/configurations/paymentComplement', (req, res) => {
+  res.status(200).send(onlineInvoice.paymentComplement)
+})
+app.get('/gestion/configurations/documentSubstitution', (req, res) => {
+  res.status(200).send(onlineInvoice.documentSubstitution)
+})
+app.get('/gestion/configurations/annulment', (req, res) => {
+  res.status(200).send(onlineInvoice.annulment)
+})
+app.get('/gestion/configurations/personType', (req, res) => {
+  res.status(200).send(onlineInvoice.personType)
+})
+app.get('/gestion/configurations/nationality', (req, res) => {
+  res.status(200).send(onlineInvoice.nationality)
+})
+
 app.listen(8080, () => {
   // eslint-disable-next-line no-console
   console.log('Example app listening on port https://localhost:8080')

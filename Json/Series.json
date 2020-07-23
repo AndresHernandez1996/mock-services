@@ -3,14 +3,14 @@
     "variations": [
       {
         "idSerie": 1,
-        "rfc": "AMS020725UJ1",
+        "rfcOwner": "AMS020725UJ1",
         "documentType": "Factura",
         "serie": "HD",
-        "aprovedNum": 2,
-        "aprovedYear": "2010",
+        "approvalNumber": "",
+        "approvalYear": "",
         "initialNumber": "1",
         "finalNumber": "10",
-        "currentNumber": "1"
+        "currentFolio": "1"
       },
       {
         "idSerie": 2,

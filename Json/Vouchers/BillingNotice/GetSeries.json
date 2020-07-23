@@ -1,8 +1,68 @@
 {
-  "series": [
-    { "id": 1, "label": "H" },
-    { "id": 2, "label": "I" },
-    { "id": 3, "label": "J" },
-    { "id": 4, "label": "K" }
-  ]
+  "extension": {
+    "variations": [
+      {
+        "id": 1,
+        "rfcOwner": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "approvalNumber": "2324",
+        "approvalYear": "2020",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentFolio": "1"
+      },
+      {
+        "id": 2,
+        "rfcOwner": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "approvalNumber": "2324",
+        "approvalYear": "2020",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentFolio": "1"
+      },
+      {
+        "id": 3,
+        "rfcOwner": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "approvalNumber": "2324",
+        "approvalYear": "2020",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentFolio": "1"
+      },
+      {
+        "id": 4,
+        "rfcOwner": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "approvalNumber": "2324",
+        "approvalYear": "2020",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentFolio": "1"
+      },
+      {
+        "id": 5,
+        "rfcOwner": "AMS020725UJ1",
+        "documentType": "Factura",
+        "serie": "HD",
+        "approvalNumber": "2324",
+        "approvalYear": "2020",
+        "initialNumber": "1",
+        "finalNumber": "10",
+        "currentFolio": "1"
+      }
+    ]
+  },
+  "metadata": {
+    "page": "1",
+    "perPage": "20",
+    "columnOrder": "ID",
+    "typeOrder": "DESC",
+    "totalPages": "20"
+  }
 }

@@ -1,1 +1,3 @@
-ordenaminto default capo 
+system: "GCAYE" & enquireType:"pac"
+system: "GCAYE" & enquireType:"ecosys"
+system: "GCAYE" & enquireType:"exceptions"

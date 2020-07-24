@@ -1,20 +1,20 @@
 {
   "status": [
     {
-      "idStatus": 1,
-      "nameStatus": "Cancelado"
+      "id": 1,
+      "label": "Cancelado"
     },
     {
-      "idStatus": 2,
-      "nameStatus": "Pendiente"
+      "id": 2,
+      "label": "Pendiente"
     },
     {
-      "idStatus": 3,
-      "nameStatus": "Revisado"
+      "id": 3,
+      "label": "Revisado"
     },
     {
-      "idStatus": 4,
-      "nameStatus": "Aprobado"
+      "id": 4,
+      "label": "Aprobado"
     }
   ]
 }

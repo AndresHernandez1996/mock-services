@@ -10,11 +10,14 @@ https://www.sonarqube.org/downloads/
 4.- Correr el servidor java (Escucha automáticamente en el 9000), escribir el siguiente comando
 ./sonar.sh console
 
-5.- Ir al proyecto cfdi en el file sonar-project.js y cambiar el key "serverUrl" por la ip del equipo
+5.- Ir al proyecto cfdi en el file sonar-project.js y cambiar el key "serverUrl" por la ip del equipo o dejar por default en el 9000
 
-6.- Correr el script
+6.- Correr tus pruebas
+ "npm run test"
+
+7.- Subir reporte a sonar
 "npm run sonnar-scanner"
 
-7.- Ir a http://localhost:9000/about
+8.- Ir a http://localhost:9000/about
 
 Congrats!

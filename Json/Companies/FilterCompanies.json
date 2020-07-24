@@ -65,6 +65,15 @@
       "idCompany": 4
     },
     {
+      "businessName": "MLA COMERCIAL SA de CV",
+      "dateCreated": "23-12-2010 20:02:36",
+      "id": 24,
+      "idAddress": 8,
+      "lastUpdated": "11-01-2017 14:45:14",
+      "name": "MLA COMERCIAL SA de CV",
+      "rfcOwner": "MCO041108C2A",
+      "status": 1,
+      "version": "3",
       "issuingCompany": "FEDEX",
       "rfc": "1QAZ2WSX",
       "taxRegime": "1QAZ2WSX",

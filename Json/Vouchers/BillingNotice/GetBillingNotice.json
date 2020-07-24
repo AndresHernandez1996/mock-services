@@ -1,113 +1,53 @@
 {
-  "listResponse": [
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 6687621.0,
-      "policy": "M0008163344",
-      "serie": "H",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 3065333.0,
-      "policy": "M0008163344",
-      "serie": "NULO",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 306454341.0,
-      "policy": "I000746715",
-      "serie": "NULO",
-      "system": "GCAYE",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 3065333.0,
-      "policy": "M0008163344",
-      "serie": "NULO",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 306454341.0,
-      "policy": "I000746715",
-      "serie": "NULO",
-      "system": "GCAYE",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 3065333.0,
-      "policy": "M0008163344",
-      "serie": "NULO",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 306454341.0,
-      "policy": "I000746715",
-      "serie": "NULO",
-      "system": "GCAYE",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 3065333.0,
-      "policy": "M0008163344",
-      "serie": "NULO",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 306454341.0,
-      "policy": "I000746715",
-      "serie": "NULO",
-      "system": "GCAYE",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 3065333.0,
-      "policy": "M0008163344",
-      "serie": "NULO",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 306454341.0,
-      "policy": "I000746715",
-      "serie": "NULO",
-      "system": "GCAYE",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 3065333.0,
-      "policy": "M0008163344",
-      "serie": "NULO",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9"
-    },
-    {
-      "date": "2020-05-21 16:59:07",
-      "folio": 306454341.0,
-      "policy": "I000746715",
-      "serie": "NULO",
-      "system": "GCAYE",
-      "rfcReceiver": "BAT050829CF9"
+  "body": {
+    "data": {
+      "cfdiRequest": [
+        {
+          "agent": "123",
+          "id": 1,
+          "date": "2020-07-10 10:27:15",
+          "folio": 3297370,
+          "policy": {
+            "id": "2916431"
+          },
+          "rfcReceiver": "TAC910212L56",
+          "serie": "NULO",
+          "system": "GCAYE"
+        },
+        {
+          "id": 2,
+          "date": "2020-07-10 10:25:23",
+          "folio": 3297371,
+          "policy": {},
+          "serie": "NULO",
+          "system": "GCAYE",
+          "rfcReceiver": "TAC910212L56"
+        },
+        {
+          "id": 3,
+          "date": "2020-07-10 10:13:22",
+          "folio": 3297372,
+          "policy": {},
+          "serie": "NULO",
+          "system": "GCAYE",
+          "rfcReceiver": "TAC910212L56"
+        },
+        {
+          "id": 4,
+          "date": "2020-07-10 09:22:08",
+          "folio": 3297373,
+          "policy": {},
+          "serie": "NULO",
+          "system": "GCAYE",
+          "rfcReceiver": "TAC910212L56"
+        }
+      ],
+      "metadata": {
+        "currentPage": 1,
+        "size": 10,
+        "totalElements": 4,
+        "totalPages": 1
+      }
     }
-  ],
-  "pagination": {
-    "current": 1,
-    "pageSize": 10,
-    "total": 3
   }
 }

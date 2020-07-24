@@ -1,69 +1,56 @@
 {
-  "listResponse": [
-    {
-      "id": 1,
-      "date": "2020-05-21T16:59:07",
-      "folio": "1245745.00",
-      "policy": "M0008163344",
-      "serie": "H",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9",
-      "plan": "plan",
-      "error": "error",
-      "errorType": "errorType"
-    },
-    {
-      "id": 2,
-      "date": "2020-05-21T16:59:07",
-      "folio": "1245745.00",
-      "policy": "M0008163344",
-      "serie": "H",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9",
-      "plan": "plan",
-      "error": "error",
-      "errorType": "errorType"
-    },
-    {
-      "id": 3,
-      "date": "2020-05-21T16:59:07",
-      "folio": "1245745.00",
-      "policy": "M0008163344",
-      "serie": "H",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9",
-      "plan": "plan",
-      "error": "error",
-      "errorType": "errorType"
-    },
-    {
-      "id": 4,
-      "date": "2020-05-21T16:59:07",
-      "folio": "1245745.00",
-      "policy": "M0008163344",
-      "serie": "H",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9",
-      "plan": "plan",
-      "error": "error",
-      "errorType": "errorType"
-    },
-    {
-      "id": 5,
-      "date": "2020-05-21T16:59:07",
-      "folio": "1245745.00",
-      "policy": "M0008163344",
-      "serie": "H",
-      "system": "LSP",
-      "rfcReceiver": "BAT050829CF9",
-      "plan": "plan",
-      "error": "error",
-      "errorType": "errorType"
+  "body": {
+    "data": {
+      "cfdiRequest": [
+        {
+          "error": "Archivo no localizado",
+          "folio": 1006,
+          "id": 0,
+          "policy": {},
+          "serie": "NULO",
+          "system": "GCAYE"
+        },
+        {
+          "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><GenerarDocumentoResponse xmlns=\"http://tempuri.org/\"><GenerarDocumentoResult>&lt;Resultado EstatusId=\"0\" Descripcion=\"No se encontro el nodo addenda . &amp;lt;Resultado EstatusId=&amp;quot;0&amp;quot; Descripcion=&amp;quot;[InterFacturaException] El folio está repetido&amp;amp;#xD;&amp;amp;#xA;[InterFacturaException] Folio Referencia duplicado&amp;amp;#xD;&amp;amp;#xA;Error al tratar de insertar la informacion del encabezado de la factura&amp;amp;#xD;&amp;amp;#xA;Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.&amp;quot; /&amp;gt;   en MetLifeExtension.MetLifeExtension.GenerarDocumento(String sourceXmlDoc, Boolean IsConsulta, String RI, Int32 UserID) en C:\\Users\\promp\\source\\repos\\OnLiveIFService\\MetLifeExtension\\MetLifeExtension.cs:línea 147\" /></GenerarDocumentoResult></GenerarDocumentoResponse></soap:Body></soap:Envelope>",
+          "errorType": "PAC",
+          "folio": 5000118,
+          "id": 1,
+          "policy": {},
+          "serie": "NULO",
+          "system": "STONE_EAGLE"
+        },
+        {
+          "date": "2020-07-18 00:00:00",
+          "error": "Archivo no localizado",
+          "folio": 1004,
+          "id": 2,
+          "product": "PLAN XXXX",
+          "policy": {
+            "id": "POL1234"
+          },
+          "rfcReceptor": "RECEPTOR AAAA",
+          "serie": "NULO",
+          "system": "GCAYE"
+        },
+        {
+          "date": "2020-07-18 00:00:00",
+          "error": "Archivo no localizado",
+          "folio": 1004,
+          "id": 3,
+          "product": "PLAN XXXX",
+          "policy": {
+            "id": "POL1234"
+          },
+          "rfcReceptor": "RECEPTOR AAAA",
+          "serie": "NULO",
+          "system": "GCAYE"
+        }
+      ],
+      "metadata": {
+        "currentPage": 2,
+        "size": 2,
+        "totalElements": 705
+      }
     }
-  ],
-  "pagination": {
-    "current": 1,
-    "pageSize": 10,
-    "total": 3
   }
 }

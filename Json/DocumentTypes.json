@@ -1,12 +1,14 @@
 {
-  "documentTypes": [
-    {
-      "idTypeDocument": 1,
-      "description": "Nota de crédito"
-    },
-    {
-      "idTypeDocument": 2,
-      "description": "Factura"
-    }
-  ]
+  "extension": {
+    "variations": [
+      {
+        "id": 1,
+        "documentType": "NOTA DE CRÉDITO"
+      },
+      {
+        "id": 2,
+        "documentType": "FACTURA"
+      }
+    ]
+  }
 }

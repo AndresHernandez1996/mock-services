@@ -1,22 +1,26 @@
-[
-  {
-    "idSystem": 1,
-    "nameSystem": "System 1"
-  },
-  {
-    "idSystem": 2,
-    "nameSystem": "System 2"
-  },
-  {
-    "idSystem": 3,
-    "nameSystem": "system 3"
-  },
-  {
-    "idSystem": 4,
-    "nameSystem": "system 4"
-  },
-  {
-    "idSystem": 5,
-    "nameSystem": "system 5"
+{
+  "extension": {
+    "variations": [
+      {
+        "id": 1,
+        "system": "SISTEMA 1"
+      },
+      {
+        "id": 2,
+        "system": "SISTEMA 2"
+      },
+      {
+        "id": 3,
+        "system": "SISTEMA 3"
+      },
+      {
+        "id": 4,
+        "system": "SISTEMA 4"
+      },
+      {
+        "id": 5,
+        "system": "SISTEMA 5"
+      }
+    ]
   }
-]
+}

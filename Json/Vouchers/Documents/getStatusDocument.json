@@ -1,18 +1,26 @@
-[
-  {
-    "idStatusDocument": 1,
-    "nameStatusDocument": "Activo"
-  },
-  {
-    "idStatusDocument": 2,
-    "nameStatusDocument": "Inactivo"
-  },
-  {
-    "idStatusDocument": 3,
-    "nameStatusDocument": "Suspendido"
-  },
-  {
-    "idStatusDocument": 4,
-    "nameStatusDocument": "En curso"
+{
+  "extension": {
+    "variations": [
+      {
+        "id": 1,
+        "status": "CORRECTO"
+      },
+      {
+        "id": 2,
+        "status": "INCORRECTO"
+      },
+      {
+        "id": 3,
+        "status": "INCORRECTO 2"
+      },
+      {
+        "id": 4,
+        "status": "PENDIENTE"
+      },
+      {
+        "id": 5,
+        "status": "EN EL LIMBO"
+      }
+    ]
   }
-]
+}

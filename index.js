@@ -45,6 +45,7 @@ const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const getPeriodicity = require('./Json/Periodicity.json')
 const getPeriod = require('./Json/Period.json')
 const getCellById = require('./Json/MassDownload/GetCellById.json')
+const getSeriesBilling = require('./Json/Vouchers/BillingNotice/GetSeries.json')
 const getFilterQuery = require('./Json/Query.json')
 
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
@@ -209,7 +210,7 @@ app.get('/filterPlans', (req, res) => {
  * series
  */
 app.get('/getSerieById', (req, res) => {
-  res.status(200).send(seriesList.series[1])
+  res.status(200).send(seriesList.extension.variations[0])
 })
 
 app.put('/saveSerie', (req, res) => {
@@ -241,10 +242,15 @@ app.get('/getDocumentTypes', (req, res) => {
   res.status(200).send(documentTypes)
 })
 
+app.get('/getSeriesBilling', (req, res) => {
+  res.status(200).send(getSeriesBilling)
+})
+
 // Series -------------------------------------
 
 // REPORTS -------------------------------------
 app.get('/filterReports', (req, res) => {
+  console.log('BODY', req)
   res.status(200).send(filterReports)
 })
 

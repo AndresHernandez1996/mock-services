@@ -2,8 +2,14 @@
   "extension": {
     "variations": [
       {
-        "serieId": "1",
-        "series": "F"
+        "idSerie": 1,
+        "rfcOwner": "AMS020725UJ1",
+        "documentType": "I",
+        "serie": "HD",
+        "approvalNumber": "002",
+        "approvalYear": "2019",
+        "initialNumber": "1",
+        "finalNumber": "10"
       },
       {
         "serieId": "2",

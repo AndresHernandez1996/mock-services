@@ -1,0 +1,29 @@
+[{
+  "children": [
+      {
+          "children": [
+              {
+                  "title": "PAGOTIMBRADO",
+                  "key": "2"
+              },
+              {
+                  "title": "NOTA_CREDITOTIMBRADO",
+                  "key": "3"
+              }
+          ],
+          "title": "FACTURATIMBRADO",
+          "key": "4"
+      },
+      {
+          "title": "PAGOTIMBRADO",
+          "key": "5"
+      },
+      {
+          "title": "NOTA_CREDITOTIMBRADO",
+          "key": "6"
+      }
+  ],
+  "title": "FACTURACANCELED",
+  "key": "1"
+}
+]

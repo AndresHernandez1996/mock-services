@@ -46,6 +46,7 @@ const getPeriodicity = require('./Json/Periodicity.json')
 const getPeriod = require('./Json/Period.json')
 const getCellById = require('./Json/MassDownload/GetCellById.json')
 const getSeriesBilling = require('./Json/Vouchers/BillingNotice/GetSeries.json')
+const getFilterQuery = require('./Json/Query.json')
 
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
@@ -501,6 +502,9 @@ app.get('/gestion/configurations/personType', (req, res) => {
 })
 app.get('/gestion/configurations/nationality', (req, res) => {
   res.status(200).send(onlineInvoice.nationality)
+})
+app.get('/getFilterQuery', (req, res) => {
+  res.status(200).send(getFilterQuery)
 })
 
 app.listen(8080, () => {

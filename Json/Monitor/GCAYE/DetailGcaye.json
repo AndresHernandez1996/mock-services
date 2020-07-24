@@ -1,57 +1,53 @@
 { "detail":{
     "detail": [{
-        "idDetail" : 1,
-        "legacy": "GCAYE",
-        "serie": "serie",
-        "invoice": 2243,
-        "bill": 1234,
-        "policy": 23445,
-        "rambo": "B",
-        "status": "Pendiente",
-        "date" : "29 febreo 2020",
-        "noAgent" : "00B"
+      "date": "2020-07-16 15:21:22",
+      "folio": 3427,
+      "policy": {},
+      "serie": "1",
+      "status": "Error",
+      "system": "Cancelado",
+      "trade": "B",
+      "agentNumber" : "00B",
+      "docRel":123456
     },
     {
-        "idDetail" : 2,
-        "legacy": "GCAYE",
-        "serie": "serie",
-        "invoice": 2243,
-        "bill": 1234,
-        "policy": 23445,
-        "rambo": "B",
-        "status": "Pendiente",
-        "date" : "29 febreo 2020",
-        "noAgent" : "00B"
+      "date": "2020-07-16 15:21:22",
+      "folio": 3427,
+      "policy": {},
+      "serie": "1",
+      "status": "Error",
+      "system": "gcaye",
+      "trade": "B",
+      "agentNumber" : "00B",
+      "docRel":123456
     },
     {
-        "idDetail" : 3,
-        "legacy": "GCAYE",
-        "serie": "serie",
-        "invoice": 2243,
-        "bill": 1234,
-        "policy": 23445,
-        "rambo": "B",
-        "status": "Pendiente",
-        "date" : "29 febreo 2020",
-        "noAgent" : "00B"
+        "date": "2020-07-16 15:21:22",
+        "folio": 3427,
+        "policy": {},
+        "serie": "1",
+        "status": "Error",
+        "system": "gcaye",
+        "trade": "B",
+        "agentNumber" : "00B",
+        "docRel":123456
     },
     {
-        "idDetail" : 4,
-        "legacy": "GCAYE",
-        "serie": "serie",
-        "invoice": 2243,
-        "bill": 1234,
-        "policy": 23445,
-        "rambo": "B",
-        "status": "Pendiente",
-        "date" : "29 febreo 2020",
-        "noAgent" : "00B"
+      "date": "2020-07-16 15:21:22",
+      "folio": 3427,
+      "policy": {},
+      "serie": "1",
+      "status": "Error",
+      "system": "gcaye",
+      "trade": "B",
+      "agentNumber" : "00B",
+      "docRel":123456
     }
     ],
-    "pagination": {
-      "current": 1,
-      "pageSize": 10,
-      "total": 3
+    "metadata": {
+      "currentPage": 1,
+      "size": 10,
+      "totalElements": 3
     }
   }
 }

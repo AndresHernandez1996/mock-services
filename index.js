@@ -209,7 +209,7 @@ app.get('/filterPlans', (req, res) => {
  * series
  */
 app.get('/getSerieById', (req, res) => {
-  res.status(200).send(seriesList.series[1])
+  res.status(200).send(seriesList.extension.variations[0])
 })
 
 app.put('/saveSerie', (req, res) => {

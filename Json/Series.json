@@ -4,13 +4,12 @@
       {
         "idSerie": 1,
         "rfcOwner": "AMS020725UJ1",
-        "documentType": "Factura",
+        "documentType": "I",
         "serie": "HD",
-        "approvalNumber": "",
-        "approvalYear": "",
+        "approvalNumber": "002",
+        "approvalYear": "2019",
         "initialNumber": "1",
-        "finalNumber": "10",
-        "currentFolio": "1"
+        "finalNumber": "10"
       },
       {
         "serieId": "2",

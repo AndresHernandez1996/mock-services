@@ -1,0 +1,24 @@
+{
+  "extension": {
+    "variations": {
+      "menu": [
+        "admin",
+        "vouchers",
+        "user",
+        "reports",
+        "monitor",
+        "operations",
+        "billing"
+      ],
+      "uri": [
+        "/admin/login",
+        "/ecosys/admin/series",
+        "/ecosys/admin/series/create",
+        "/ecosys/admin/series/edit",
+        "/ecosys/admin/profiles",
+        "/ecosys/admin/pacGcaye",
+        "/ecosys/admin/brokers"
+      ]
+    }
+  }
+}

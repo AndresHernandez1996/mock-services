@@ -66,6 +66,8 @@ const expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
 const getEcosysPac = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPac.json')
 const getEcosysPacDetail = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPacDetail.json')
 
+const getPermission = require('./Json/getPermission.json')
+
 app.use(
   cors({
     origin: [
@@ -505,6 +507,11 @@ app.get('/gestion/configurations/nationality', (req, res) => {
 })
 app.get('/getFilterQuery', (req, res) => {
   res.status(200).send(getFilterQuery)
+})
+
+// Menu Rol Permission
+app.get('/getPermission', (req, res) => {
+  res.status(200).send(getPermission)
 })
 
 app.listen(8080, () => {

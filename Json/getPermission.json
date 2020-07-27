@@ -11,13 +11,72 @@
         "billing"
       ],
       "uri": [
+        "/ecosys/home",
+
         "/admin/login",
+
+        "/admin/users",
+        "/admin/users/create",
+        "/admin/users/edit",
+
+        "/ecosys/admin/select-company",
+
+        "/admin/companies",
+        "/admin/companies/create",
+        "/admin/companies/edit",
+
+        "/vouchers/onlineInvoice",
+        "/vouchers/onlineInvoice/create",
+        "/vouchers/onlineInvoice/edit",
+
         "/ecosys/admin/series",
         "/ecosys/admin/series/create",
         "/ecosys/admin/series/edit",
+
         "/ecosys/admin/profiles",
+        "/ecosys/admin/profiles/create",
+        "/ecosys/admin/profiles/edit",
+
         "/ecosys/admin/pacGcaye",
-        "/ecosys/admin/brokers"
+        "/ecosys/admin/brokers",
+
+        "/ecosys/admin/legaciesGcaye",
+        "/ecosys/admin/legaciesLsp",
+
+        "/ecosys/admin/brokers",
+        "/ecosys/admin/brokers/create",
+        "/ecosys/admin/brokers/edit",
+
+        "/admin/billingNotice",
+
+        "/monitor/gcaye",
+        "/monitor/gcaye/detalle",
+
+        "/ecosys/monitor/ecosyspac",
+        "/ecosys/admin/documents",
+        "/ecosys/admin/vouchers/cancelations",
+
+        "/monitor/exceptions",
+
+        "/ecosys/admin/massiveLoading",
+
+        "/ecosys/admin/multiPack",
+        "/ecosys/admin/errors-cfdi",
+        "/ecosys/admin/reports",
+        "/ecosys/admin/reports/Montly",
+        "/ecosys/admin/reports/Folio",
+
+        "/ecosys/admin/addenda",
+
+        "/ecosys/massDownload",
+        "/ecosys/massDownload/broker/edit",
+        "/ecosys/massDownload/broker/create",
+        "/ecosys/massDownload/cronograma/edit",
+        "/ecosys/massDownload/cronograma/create",
+        "/ecosys/massDownload/celula/edit",
+        "/ecosys/massDownload/celula/create",
+
+        "/ecosys/operations/query"
       ]
     }
   }

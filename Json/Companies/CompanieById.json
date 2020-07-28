@@ -1,16 +1,18 @@
 {
-  "issuingCompany": "FEDEX",
-  "rfc": "1QAZ2WSX",
-  "taxRegime": "1QAZ2WSX",
-  "street": "Unión",
-  "outdoorNumber": "77",
-  "interiorNumber": "101 B",
-  "suburb": "Escandón",
-  "codeZip": "11800",
-  "town": "CDMX",
-  "location": "México",
-  "references": "Al lado del metrobús",
-  "state": "CDMX",
-  "country": "México",
-  "idCompany": 1
+  "extension": {
+    "variations": [
+      {
+        "businessName": "METLIFE AFORE S.A. de C.V.",
+        "dateCreated": "23-12-2010 20:02:35",
+        "id": 19,
+        "idAddress": 15,
+        "lastUpdated": "11-01-2017 14:35:47",
+        "name": "METLIFE AFORE S.A. de C.V.",
+        "rfcOwner": "MAF041108KU6",
+        "status": 1,
+        "taxRegime": "Régimen General de Ley Personas Morales",
+        "version": "3"
+      }
+    ]
+  }
 }

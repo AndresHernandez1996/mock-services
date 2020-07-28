@@ -47,6 +47,8 @@ const getPeriod = require('./Json/Period.json')
 const getCellById = require('./Json/MassDownload/GetCellById.json')
 const getSeriesBilling = require('./Json/Vouchers/BillingNotice/GetSeries.json')
 const getFilterQuery = require('./Json/Query.json')
+const getAllAddress = require('./Json/Address/GetAllAddress.json')
+const getAddressById = require('./Json/Address/GetAddressById.json')
 
 const saveInvoiceError = require('./Json/SaveInvoiceError.json')
 const getPdf = require('./Json/Vouchers/BillingNotice/GetPdf.json')
@@ -192,6 +194,16 @@ app.get('/companyById', (req, res) => {
   res.status(200).send(companieById)
 })
 // Companies ---------------------------------
+
+// ADDRESS ---------------------------------
+app.get('/getAllAddres', (req, res) => {
+  res.status(200).send(getAllAddress)
+})
+
+app.get('/getAddresById', (req, res) => {
+  res.status(200).send(getAddressById)
+})
+// ADDRESS ---------------------------------
 
 // PLANS ---------------------------------
 app.get('/getAllPlans', (req, res) => {

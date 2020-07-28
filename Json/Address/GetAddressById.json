@@ -1,0 +1,19 @@
+{
+  "extension": {
+    "variations": [
+      {
+        "country": "México",
+        "dateCreated": "2010-12-23T20:02:35.417368",
+        "extNumber": "90 Torre 1",
+        "id": 9,
+        "intNumber": "Piso 11 Oficina B",
+        "location": "Cuajimalpa de Morelos",
+        "state": "Ciudad de México",
+        "street": "Avenida Paseo de los Tamarindos",
+        "suburb": "Bosques de las Lomas",
+        "township": "Cuajimalpa de Morelos",
+        "version": "1"
+      }
+    ]
+  }
+}

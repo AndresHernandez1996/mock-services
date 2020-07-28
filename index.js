@@ -45,6 +45,9 @@ const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const getPeriodicity = require('./Json/Periodicity.json')
 const getPeriod = require('./Json/Period.json')
 const getCellById = require('./Json/MassDownload/GetCellById.json')
+const uploadCell = require('./Json/MassDownload/UploadCell.json')
+const deleteCell = require('./Json/MassDownload/RemoveCelula.json')
+
 const getSeriesBilling = require('./Json/Vouchers/BillingNotice/GetSeries.json')
 const getFilterQuery = require('./Json/Query.json')
 
@@ -375,6 +378,13 @@ app.get('/getPeriod', (req, res) => {
 // Period
 
 // MassDownload
+
+app.post('/deleteCell', (req, res) => {
+  res.status(200).send(deleteCell)
+})
+app.put('/uploadCell', (req, res) => {
+  res.status(200).send(uploadCell)
+})
 app.get('/getMassDownload', (req, res) => {
   res.status(200).send(getMassDownload)
 })

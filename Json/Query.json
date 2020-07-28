@@ -1,29 +1,30 @@
-[{
-  "children": [
-      {
+[
+    {
+      "children": [
+        {
           "children": [
-              {
-                  "title": "PAGOTIMBRADO",
-                  "key": "2"
-              },
-              {
-                  "title": "NOTA_CREDITOTIMBRADO",
-                  "key": "3"
-              }
+            {
+              "key": 4,
+              "title": "PAGO 5000363 (TIMBRADO)"
+            },
+            {
+              "key": 5,
+              "title": "NOTA_CREDITO 5000342 (TIMBRADO)"
+            }
           ],
-          "title": "FACTURATIMBRADO",
-          "key": "4"
-      },
-      {
-          "title": "PAGOTIMBRADO",
-          "key": "5"
-      },
-      {
-          "title": "NOTA_CREDITOTIMBRADO",
-          "key": "6"
-      }
-  ],
-  "title": "FACTURACANCELED",
-  "key": "1"
-}
-]
+          "key": 1,
+          "title": "FACTURA 2002525657 (TIMBRADO)"
+        },
+        {
+          "key": 2,
+          "title": "PAGO 19422002 (TIMBRADO)"
+        },
+        {
+          "key": 3,
+          "title": "NOTA_CREDITO 19522002 (TIMBRADO)"
+        }
+      ],
+      "key": 0,
+      "title": "FACTURA 5000101 (CANCELED)"
+    }
+  ]

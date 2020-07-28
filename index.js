@@ -45,6 +45,9 @@ const getExceptions = require('./Json/Monitor/exceptions/getExeptions.json')
 const getPeriodicity = require('./Json/Periodicity.json')
 const getPeriod = require('./Json/Period.json')
 const getCellById = require('./Json/MassDownload/GetCellById.json')
+const uploadCell = require('./Json/MassDownload/UploadCell.json')
+const deleteCell = require('./Json/MassDownload/RemoveCelula.json')
+
 const getSeriesBilling = require('./Json/Vouchers/BillingNotice/GetSeries.json')
 const getFilterQuery = require('./Json/Query.json')
 const getAllAddress = require('./Json/Address/GetAllAddress.json')
@@ -68,6 +71,8 @@ const expiryDate = new Date(Date.now() + 60 * 60 * 1000) // 1 hour
 const getEcosysPac = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPac.json')
 const getEcosysPacDetail = require('./Json/Monitor/ECOSYS-PAC/GetEcosysPacDetail.json')
 
+const getPermission = require('./Json/getPermission.json')
+
 app.use(
   cors({
     origin: [
@@ -83,8 +88,8 @@ app.use(
 app.get('/login', (req, res) => {
   res.cookie(
     'token',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwidHlwZV9ncm91cCI6ImFkbWluIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.YcAZZ5Nq1T_38jZBQExI2TxlYp48pPM6wPt8xOR6HD0',
-    { httpOnly: true, expires: expiryDate }
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwidHlwZV9ncm91cCI6ImFkbWluIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.YcAZZ5Nq1T_38jZBQExI2TxlYp48pPM6wPt8xOR6HD0'
+    //{ httpOnly: true, expires: expiryDate }
   )
   res.setHeader('idCompany', '123456')
   res.status(406).send(login)
@@ -387,6 +392,13 @@ app.get('/getPeriod', (req, res) => {
 // Period
 
 // MassDownload
+
+app.post('/deleteCell', (req, res) => {
+  res.status(200).send(deleteCell)
+})
+app.put('/uploadCell', (req, res) => {
+  res.status(200).send(uploadCell)
+})
 app.get('/getMassDownload', (req, res) => {
   res.status(200).send(getMassDownload)
 })
@@ -517,6 +529,11 @@ app.get('/gestion/configurations/nationality', (req, res) => {
 })
 app.get('/getFilterQuery', (req, res) => {
   res.status(200).send(getFilterQuery)
+})
+
+// Menu Rol Permission
+app.get('/getPermission', (req, res) => {
+  res.status(200).send(getPermission)
 })
 
 app.listen(8080, () => {

@@ -1,22 +1,11 @@
 {
   "massDownload": {
-    "idMassDownload": 1,
-    "massDownloadlist": [
-      {
       "idMassDownload" : 1,
-      "broker": "broker",
-      "noAget": "12345"
-      },
-      {
-        "idMassDownload" : 2,
-        "broker": "broker",
-        "noAget": "33333"
-        },
-        {
-          "idMassDownload" : 4,
-          "broker": "broker",
-          "noAget": "12345"
-      }
-    ]}
+      "broker": "Broker",
+      "periodicity": "Quincenal",
+      "status": "Pendiente",
+      "noAget": "12345",
+      "dateStarting": "2020-06-26"
+    }
 
 }

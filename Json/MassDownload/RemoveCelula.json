@@ -4,11 +4,5 @@
       "fileName": "DEMO.csv",
       "idLayoutBroker": 24,
       "idMassDownload": 1
-  },
-  {
-    "count": 300,
-    "fileName": "demo2.csv",
-    "idLayoutBroker": 23,
-    "idMassDownload": 1
-}
+  }
 ]

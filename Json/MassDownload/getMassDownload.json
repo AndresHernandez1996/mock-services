@@ -2,18 +2,39 @@
   "massDownload": [
     {
     "idMassDownload" : 1,
-    "TypeMassDownload": "broker",
-    "source": "broker"
+    "TypeMassDownload": "MGO",
+    "source": "broker",
+    "dateDownload": "2020-06-26",
+    "nextDateDownload": "2020-07-04",
+    "status": "Pendiente",
+    "period": "Semanal"
     },
     {
       "idMassDownload" : 2,
-      "TypeMassDownload": "cronograma",
-      "source": "cronograma"
+      "TypeMassDownload": "MGO",
+      "source": "broker",
+      "dateDownload": "2020-06-26",
+      "nextDateDownload": "2020-07-04",
+      "status": "Pendiente",
+      "period": "Semanal"
     },
     {
       "idMassDownload" : 3,
+      "TypeMassDownload": "MGO",
+      "source": "broker",
+      "dateDownload": "",
+      "nextDateDownload": "",
+      "status": "No programda",
+      "period": "Semanal"
+    },
+    {
+      "idMassDownload" : 4,
       "TypeMassDownload": "celula",
-      "source": "celula"
+      "source": "celula",
+      "dateDownload": "2020-06-26",
+      "nextDateDownload": "2020-07-04",
+      "status": "Pendiente",
+      "period": "Semanal"
     }
 ]
 

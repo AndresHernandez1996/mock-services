@@ -19,6 +19,9 @@
         "/admin/users/create",
         "/admin/users/edit",
 
+        "/ecosys/vouchers/onlineInvoice",
+        "/ecosys/vouchers/onlineInvoice/create",
+
         "/ecosys/admin/select-company",
 
         "/admin/companies",

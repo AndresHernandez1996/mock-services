@@ -532,9 +532,9 @@ app.get('/getFilterQuery', (req, res) => {
 })
 
 // Menu Rol Permission
-app.get('/getPermission', (req, res) => {
-  res.status(200).send(getPermission)
-})
+// app.get('/getPermission', (req, res) => {
+//   res.status(200).send(getPermission)
+// })
 
 app.listen(8080, () => {
   // eslint-disable-next-line no-console

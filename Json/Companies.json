@@ -1,23 +1,23 @@
 {
   "companies": [
     {
-      "idCompany": 26,
+      "companyId": 26,
       "nameCompany": "METLIFE SA DE CV"
     },
     {
-      "idCompany": 26,
+      "companyId": 25,
       "nameCompany": "METLIFE MAL CORPORATE"
     },
     {
-      "idCompany": 26,
+      "companyId": 24,
       "nameCompany": "COLGATE CORPORATION"
     },
     {
-      "idCompany": 26,
+      "companyId": 23,
       "nameCompany": "CHEVROLET MOTORS"
     },
     {
-      "idCompany": 26,
+      "companyId": 22,
       "nameCompany": "COSCO CORPORATION"
     }
   ]

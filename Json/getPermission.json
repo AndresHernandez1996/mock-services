@@ -1,15 +1,6 @@
 {
   "extension": {
     "variations": {
-      "menu": [
-        "admin",
-        "vouchers",
-        "user",
-        "reports",
-        "monitor",
-        "operations",
-        "billing"
-      ],
       "uri": [
         "/ecosys/home",
 
